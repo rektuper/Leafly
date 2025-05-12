@@ -1,0 +1,2837 @@
+[
+  {
+    "name": "Сансевиерия",
+    "light": ["рассеянный ", "полутень", "тень"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path" : "Сансевиерия.jpg"
+  },
+  {
+    "name": "Хлорофитум",
+    "light": ["рассеянный", "полутень"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path" : "Хлорофитум.jpg"
+  },
+  {
+    "name": "Фикус Бенджамина",
+    "light": ["яркое"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path" : "ФикусБенджамина.jpg"
+  },
+  {
+    "name": "Орхидея Фаленопсис",
+    "light": ["рассеянный"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path" : "ОрхидеяФаленопсис.jpg"
+  },
+  {
+    "name": "Папоротник Нефролепис",
+    "light": ["рассеянный"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "большое",
+    "path" : "ПапоротникНефролепис.jpg"
+  },
+  {
+    "name": "Драцена",
+    "light": ["рассеянный ", "полутень"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "среднее",
+    "path" : "Драцена.jpg"
+  },
+  {
+    "name": "Сенполия",
+    "light": ["рассеянный ", "полутень"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path" : "Сенполия.jpg"
+  },
+  {
+    "name": "Алоэ вера",
+    "light": ["рассеянное"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path" : "Алоэвера.jpg"
+  },
+  {
+    "name": "Спатифиллум",
+    "light": ["рассеянный"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path" : "Спатифиллум.jpg"
+  },
+  {
+    "name": "Кактус",
+    "light": ["яркое"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path" : "Кактус.jpg"
+  },
+  {
+    "name": "Фикус Лирата",
+    "light": ["яркое", "рассеянный"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path" : "ФикусЛирата.jpg"
+  },
+  {
+    "name": "Бальзамин",
+    "light": ["рассеянный", "полутень"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path" : "Бальзамин.jpg"
+  },
+  {
+    "name": "Суккуленты",
+    "light": ["яркое", "полутень"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path" : "Суккуленты.jpg"
+  },
+  {
+    "name": "Мирт",
+    "light": ["яркое", "рассеянный"],
+    "temperature": " умеренная ",
+    "experience": "средний",
+    "humidity": "среднее",
+    "space": "среднее",
+    "path" : "Мирт.jpg"
+  },
+  {
+    "name": "Роза комнатная",
+    "light": ["яркое", "рассеянный"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path" : "Розакомнатная.jpg"
+  },
+  {
+    "name": "Каланхоэ",
+    "light": ["яркое"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path" : "Каланхоэ.jpg"
+  },
+  {
+    "name": "Азалия",
+    "light": ["рассеянный", "тень"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path" : "Азалия.jpg"
+  },
+  {
+    "name": "Герань",
+    "light": ["яркое", "рассеянный"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path" : "Герань.jpg"
+  },
+  {
+    "name": "Пеперомия",
+    "light": ["рассеянный", "полутень"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path" : "Пеперомия.jpg"
+  },
+  {
+    "name": "Бегония",
+    "light": ["рассеянный"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path" : "Бегония.jpg"
+  },
+  {
+    "name": "Диффенбахия",
+    "light": ["полутень"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path" : "Диффенбахия.jpg"
+  },
+  {
+    "name": "Антуриум",
+    "light": ["рассеянный"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path" : "Антуриум.jpg"
+  },
+  {
+    "name": "Фиалка",
+    "light": ["рассеянный"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path" : "Фиалка.jpg"
+  },
+  {
+    "name": "Монстера",
+    "light": ["полутень"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "большое",
+    "path" : "Монстера.jpg"
+  },
+  {
+    "name": "Камелия",
+    "light": ["рассеянный"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path" : "Камелия.jpg"
+  },
+  {
+    "name": "Кротон",
+    "light": ["яркое"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "среднее",
+    "path" : "Кротон.jpg"
+  },
+  {
+    "name": "Калатея",
+    "light": ["тень", "полутень"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path" : "Калатея.jpg"
+  },
+  {
+      "name": "Плющ",
+    "light": ["тень", "полутень"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "большое",
+    "path" : "Плющ.jpg"
+  },
+  {
+    "name": "Камнеломка",
+    "light": ["тень", "полутень"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path" : "Камнеломка.jpg"
+  },
+  {
+    "name": "Традесканция",
+    "light": ["тень", "полутень"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path" : "Традесканция.jpg"
+  },
+  {
+    "name": "Кипарисовик",
+    "light": ["яркое", "рассеянное"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path" : "Кипарисовик.jpg"
+  },
+  {
+    "name": "Цикламен",
+    "light": ["рассеянный"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path" : "Цикламен.jpg"
+  },
+  {
+    "name": "Граптопеталум",
+    "light": ["яркое"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path" : "Граптопеталум.jpg"
+  },
+  {
+    "name": "Юкка",
+    "light": ["яркое"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "большое",
+    "path" : "Юкка.jpg"
+  },
+  {
+    "name": "Кливия",
+    "light": ["яркое", "рассеянное"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path" : "Кливия.jpg"
+  },
+  {
+    "name": "Фиттония",
+    "light": ["яркое", "рассеянное"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "среднее",
+    "path" : "Фиттония.jpg"
+  },
+  {
+    "name": "Пальма Вашингтония",
+    "light": ["яркое"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "большое",
+    "path" : "ПальмаВашингтония.jpg"
+  },
+  {
+    "name": "Африканская фиалка",
+    "light": ["яркое"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path" : "Африканскаяфиалка.jpg"
+  },
+  {
+    "name": "Гузмания",
+    "light": ["яркое", "рассеянное"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path" : "Гузмания.jpg"
+  },
+  {
+    "name": "Циперус",
+    "light": ["яркое"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "большое",
+    "path" : "Циперус.jpg"
+  },
+  {
+    "name": "Кактус Эхиноцереус",
+    "light": ["яркое"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path" : "КактусЭхиноцереус.jpg"
+  },
+  {
+    "name": "Агаве",
+    "light": ["яркое"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path" : "Агаве.jpg"
+  },
+  {
+    "name": "Пахира",
+    "light": ["яркое"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "большое",
+    "path" : "Пахира.jpg"
+  },
+  {
+    "name": "Эпипремнум золотой",
+    "light": ["яркое", "рассеянное"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path" : "Эпипремнумзолотой.jpg"
+  },
+  {
+    "name": "Аспидистра",
+    "light": ["яркое"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "среднее",
+    "path" : "Аспидистра.jpg"
+  },
+  {
+    "name": "Аглаонема",
+    "light": ["яркое"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "большое",
+    "path" : "Аглаонема.jpg"
+  },
+  {
+    "name": "Коллеус",
+    "light": ["яркое"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path" : "Коллеус.jpg"
+  },
+  {
+    "name": "Шеффлера",
+    "light": ["яркое"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "большое",
+    "path" : "Шеффлера.jpg"
+  },
+  {
+    "name": "Эхеверия",
+    "light": ["яркое"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path" : "Эхеверия.jpg"
+  },
+  {
+    "name": "Фикус Эластика",
+    "light": ["яркое"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path" : "ФикусЭластика.jpg"
+  },
+  {
+    "name": "Цикас",
+    "light": ["яркое"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "большое",
+    "path" : "Цикас.jpg"
+  },
+  {
+    "name": "Хавортия",
+    "light": ["яркое"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path" : "Хавортия.jpg"
+  },
+  {
+    "name": "Филодендрон",
+    "light": ["яркое"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "большое",
+    "path" : "Филодендрон.jpg"
+  },
+  {
+    "name": "Циссус",
+    "light": ["яркое"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path" : "Циссус.jpg"
+  },
+  {
+    "name": "Альпиния",
+    "light": ["яркое"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path" : "Альпиния.jpg"
+  },
+  {
+    "name": "Алоказия",
+    "light": ["яркое"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "большое",
+    "path" : "Алоказия.jpg"
+  },
+  {
+    "name": "Гастерия",
+    "light": ["яркое"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path" : "Гастерия.jpg"
+  },
+  {
+    "name": "Дазилирион",
+    "light": ["яркое"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "большое",
+    "path" : "Дазилирион.jpg"
+  },
+  {
+    "name": "Гипоэстес",
+    "light": ["яркое"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path" : "Гипоэстес.jpg"
+  },
+  {
+    "name": "Хамедорея",
+    "light": ["яркое"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "среднее",
+    "path" : "Хамедорея.jpg"
+  },
+  {
+    "name": "Пальма Рапис",
+    "light": ["яркое"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "большое",
+    "path" : "ПальмаРапис.jpg"
+  },
+  {
+    "name": "Джункус",
+    "light": ["яркое"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path" : "Джункус.jpg"
+  },
+  {
+    "name": "Аглаонема Анимани Пинк",
+    "light": ["яркое"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path" : "АглаонемаАниманиПинк.jpg"
+  },
+  {
+    "name": "Филодендрон Бипиннатифидум",
+    "light": ["яркое"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "большое",
+    "path" : "ФилодендронБипиннатифидум.jpg"
+  },
+  {
+    "name": "Эспостоа",
+    "light": ["яркое"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path" : "Эспостоа.jpg"
+  },
+  {
+    "name": "Бригамия",
+    "light": ["яркое"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path" : "Бригамия.jpg"
+  },
+  {
+    "name": "Пальма Феникс",
+    "light": ["яркое"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "большое",
+    "path" : "ПальмаФеникс.jpg"
+  },
+  {
+    "name": "Каламондин",
+    "light": ["яркое"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path" : "Каламондин.jpg"
+  },
+  {
+    "name": "Брахея",
+    "light": ["яркое"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "большое",
+    "path" : "Брахея.jpg"
+  },
+  {
+    "name": "Акантостахис",
+    "light": ["яркое"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path" : "Акантостахис.jpg"
+  },
+  {
+    "name": "Арундинария",
+    "light": ["яркое"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "большое",
+    "path" : "Арундинария.jpg"
+  },
+  {
+    "name": "Конофитум",
+    "light": ["яркое"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path" : "Конофитум.jpg"
+  },
+  {
+    "name": "Цереус",
+    "light": ["яркое"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path" : "Цереус.jpg"
+  },
+  {
+    "name": "Финиковая пальма",
+    "light": ["яркое"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "большое",
+    "path" : "Финиковаяпальма.jpg"
+  },
+  {
+    "name": "Эпипремнум",
+    "light": ["яркое"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path" : "Эпипремнум.jpg"
+  },
+  {
+    "name": "Нерине",
+    "light": ["яркое"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "среднее",
+    "path" : "Нерине.jpg"
+  },
+  {
+    "name": "Кентия",
+    "light": ["яркое"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "большое",
+    "path" : "Кентия.jpg"
+  },
+  {
+    "name": "Стрептокарпус",
+    "light": ["яркое"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path" : "Стрептокарпус.jpg"
+  },
+  {
+    "name": "Орхидея Аскоцентрум",
+    "light": ["яркое", "рассеянное"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path" : "ОрхидеяАскоцентрум.jpg"
+  },
+  {
+    "name": "Пальма Арека",
+    "light": ["яркое"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "большое",
+    "path" : "ПальмаАрека.jpg"
+  },
+  {
+    "name": "Крассула",
+    "light": ["яркое"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path" : "Крассула.jpg"
+  },
+  {
+    "name": "Эуфорбия Миля",
+    "light": ["яркое"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path" : "ЭуфорбияМиля.jpg"
+  },
+  {
+    "name": "Драцена Маргината",
+    "light": ["яркое"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "большое",
+    "path" : "ДраценаМаргината.jpg"
+  },
+  {
+    "name": "Пилея",
+    "light": ["яркое"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path" : "Пилея.jpg"
+  },
+  {
+    "name": "Хедера",
+    "light": ["яркое"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "среднее",
+    "path" : "Хедера.jpg"
+  },
+  {
+    "name": " Юкка слоновая",
+    "light": ["яркое"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "большое",
+    "path" : "Юккаслоновая.jpg"
+  },
+  {
+    "name": "Адиантум",
+    "light": ["яркое"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path" : "Адиантум.jpg"
+  },
+  {
+    "name": "Асплениум",
+    "light": ["яркое"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path" : "Асплениум.jpg"
+  },
+  {
+    "name": "Аукуба Японская",
+    "light": ["яркое"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "большое",
+    "path" : "АукубаЯпонская.jpg"
+  },
+  {
+    "name": "Суккулент Седум",
+    "light": ["яркое"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path" : "СуккулентСедум.jpg"
+  },
+  {
+    "name": "Хойя",
+    "light": ["яркое"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path" : "Хойя.jpg"
+  },
+  {
+    "name": "Пальма Хауса",
+    "light": ["яркое"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "большое",
+    "path" : "ПальмаХауса.jpg"
+  },
+  {
+    "name": "Афеландра",
+    "light": ["яркое"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path" : "Афеландра.jpg"
+  },
+  {
+    "name": "Строманта",
+    "light": ["яркое"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "среднее",
+    "path" : "Строманта.jpg"
+  },
+  {
+    "name": "Банан комнатный",
+    "light": ["яркое"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "большое",
+    "path" : "Бананкомнатный.jpg"
+  },
+  {
+    "name": "Маранта",
+    "light": ["яркое"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path" : "Маранта.jpg"
+  },
+  {
+    "name": "Лавр",
+    "light": ["яркое"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path" : "Лавр.jpg"
+  },
+  {
+    "name": "Кофейное дерево",
+    "light": ["яркое"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "большое",
+    "path" : "Кофейноедерево.jpg"
+  },
+  {
+    "name": "Глоксиния",
+    "light": ["яркое"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path" : "Глоксиния.jpg"
+  },
+  {
+    "name": "Стевия",
+    "light": ["яркое"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path" : "Стевия.jpg"
+  },
+  {
+    "name": "Бамбук",
+    "light": ["яркое"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "большое",
+    "path" : "Бамбук.jpg"
+  },
+  {
+    "name": "Литопс",
+    "light": ["яркое"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path" : "Литопс.jpg"
+  },
+  {
+    "name": "Гипоэструм",
+    "light": ["яркое"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "среднее",
+    "path" : "Гипоэструм.jpg"
+  },
+  {
+    "name": "Рафидофора",
+    "light": ["яркое"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "большое",
+    "path" : "Рафидофора.jpg"
+  },
+  {
+    "name": "Нефролепис",
+    "light": ["яркое"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path" : "Нефролепис.jpg"
+  },
+  {
+    "name": "Бегония королевская",
+    "light": ["яркое"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "большое",
+    "path" : "Бегониякоролевская.jpg"
+  },
+  {
+    "name": "Аихризон",
+    "light": ["полутень"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path" : "Аихризон.jpg"
+  },
+  {
+    "name": "Ховея Форстера",
+    "light": ["полутень"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "большое",
+    "path" : "ХовеяФорстера.jpg"
+  },
+  {
+    "name": "Пилея Кадиери",
+    "light": ["полутень"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path" : "ПилеяКадиери.jpg"
+  },
+  {
+    "name": "Монстера Делициоза",
+    "light": ["полутень"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "большое",
+    "path" : "МонстераДелициоза.jpg"
+  },
+  {
+    "name": "Селагинелла",
+    "light": ["полутень"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path" : "Селагинелла.jpg"
+  },
+  {
+    "name": "Папоротник Бостон",
+    "light": ["полутень"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path" : "ПапоротникБостон.jpg"
+  },
+  {
+    "name": "Алоказия амазонская",
+    "light": ["полутень"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "большое",
+    "path" : "Алоказияамазонская.jpg"
+  },
+  {
+    "name": "Фикус Карика",
+    "light": ["полутень"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path" : "ФикусКарика.jpg"
+  },
+  {
+    "name": "Калла",
+    "light": ["полутень"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path" : "Калла.jpg"
+  },
+  {
+    "name": "Кафрская пальма",
+    "light": ["полутень"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "большое",
+    "path" : "Кафрскаяпальма.jpg"
+  },
+  {
+    "name": "Толстянка",
+    "light": ["полутень"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path" : "Толстянка.jpg"
+  },
+  {
+    "name": "Амариллис",
+    "light": ["полутень"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "среднее",
+    "path" : "Амариллис.jpg"
+  },
+  {
+    "name": "Филодендрон Пилосус",
+    "light": ["полутень"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "большое",
+    "path" : "ФилодендронПилосус.jpg"
+  },
+  {
+    "name": "Криптантус",
+    "light": ["полутень"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path" : "Криптантус.jpg"
+  },
+  {
+    "name": "Сингониум",
+    "light": ["полутень"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "большое",
+    "path" : "Сингониум.jpg"
+  },
+  {
+    "name": "Рипсалидопсис",
+    "light": ["полутень"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path" : "Рипсалидопсис.jpg"
+  },
+  {
+    "name": "",
+    "light": ["полутень"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["полутень"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["полутень"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["полутень"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "среднее",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["полутень"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["полутень"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["полутень"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["полутень"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "Замиокулькас Акебоно",
+    "light": ["полутень"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path" : "ЗамиокулькасАкебоно.jpg"
+  },
+  {
+    "name": "",
+    "light": ["полутень"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "Бемерия",
+    "light": ["полутень", "рассеянное"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "среднее",
+    "path" : "Бемерия.jpg"
+  },
+  {
+    "name": "",
+    "light": ["полутень"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "Толмия",
+    "light": ["полутень"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path" : "Толмия.jpg"
+  },
+  {
+    "name": "Хамедорея Элеганс",
+    "light": ["полутень"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path" : "ХамедореяЭлеганс.jpg"
+  },
+  {
+    "name": "Спатифиллум Максимо",
+    "light": ["рассеянный","полутень"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "большое",
+    "path" : "СпатифиллумМаксимо.jpg"
+  },
+  {
+    "name": "",
+    "light": ["полутень"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path" : ""
+  },
+  {
+    "name": "Замиокулькас",
+    "light": ["полутень"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path" : "Замиокулькас.jpg"
+  },
+  {
+    "name": "Драцена Сандера",
+    "light": ["полутень"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "большое",
+    "path" : "ДраценаСандера.jpg"
+  },
+  {
+    "name": "Скиммия",
+    "light": ["полутень"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "среднее",
+    "path" : "Скиммия.jpg"
+  },
+  {
+    "name": "Криптомерия японская",
+    "light": ["полутень"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "большое",
+    "path" : "Криптомерияяпонская.jpg"
+  },
+  {
+    "name": "",
+    "light": ["полутень"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["полутень"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["полутень"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["полутень"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["полутень"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "среднее",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["полутень"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "Серисса",
+    "light": ["рассеянный","полутень"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path" : "Серисса.jpg"
+  },
+  {
+    "name": "Орхидея Максиллярия",
+    "light": ["полутень"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path" : "ОрхидеяМаксиллярия.jpg"
+  },
+  {
+    "name": "",
+    "light": ["полутень"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["полутень"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["полутень"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["полутень"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["полутень"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "среднее",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["полутень"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["полутень"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["полутень"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["полутень"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["полутень"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["полутень"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["полутень"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "Примула комнатная",
+    "light": ["полутень"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path" : "Примулакомнатная.jpg"
+  },
+  {
+    "name": "",
+    "light": ["полутень"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "среднее",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["полутень"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "Кальцеолярия",
+    "light": ["полутень"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path" : "Кальцеолярия.jpg"
+  },
+  {
+    "name": "",
+    "light": ["полутень"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["полутень"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["полутень"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["полутень"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["полутень"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["полутень"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "среднее",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["полутень"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "Орхидея Дракула",
+    "light": ["полутень"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path" : "ОрхидеяДракула.jpg"
+  },
+  {
+    "name": "",
+    "light": ["полутень"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path" : ""
+  },
+  {
+    "name": "",
+     "light": ["полутень"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "среднее",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "среднее",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "среднее",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "среднее",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "Бальзамин Уоллера",
+    "light": ["тень"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path" : "БальзаминУоллера.jpg"
+  },
+  {
+    "name": "Микросорум",
+    "light": ["тень"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path" : "Микросорум.jpg"
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "Ледебурия",
+    "light": ["тень"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path" : "Ледебурия.jpg"
+  },
+  {
+    "name": "Фатсия японская",
+    "light": ["тень"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "среднее",
+    "path" : "Фатсияяпонская.jpg"
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "Фиттония розовая",
+    "light": ["тень"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path" : "Фиттониярозовая.jpg"
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "среднее",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path" : ""
+  },
+  {
+    "name": "Камелия Японская",
+    "light": ["тень"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path" : "КамелияЯпонская.jpg"
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "среднее",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "среднее",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "среднее",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["тень"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["рассеянный"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["рассеянный"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["рассеянный"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["рассеянный"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["рассеянный"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["рассеянный"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["рассеянный"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["рассеянный"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["рассеянный"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "Спрекелия",
+    "light": ["рассеянный"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path" : "Спрекелия.jpg"
+  },
+  {
+    "name": "Абелия",
+    "light": ["рассеянный"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "среднее",
+    "path" : "Абелия.jpg"
+  },
+  {
+    "name": "",
+    "light": ["рассеянный"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "Санхеция",
+    "light": ["рассеянный"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path" : "Санхеция.jpg"
+  },
+  {
+    "name": "",
+    "light": ["рассеянный"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "Стрелиция",
+    "light": ["рассеянный"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "большое",
+    "path" : "Стрелиция.jpg"
+  },
+  {
+    "name": "",
+    "light": ["рассеянный"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["рассеянный"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["рассеянный"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path" : ""
+  },
+  {
+    "name": "Глориоза Ротшильда",
+    "light": ["рассеянный"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "среднее",
+    "path" : "ГлориозаРотшильда.jpg"
+  },
+  {
+    "name": "",
+    "light": ["рассеянный"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path" : ""
+  },
+  {
+    "name": "Непентес",
+    "light": ["рассеянный"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path" : "Непентес.jpg"
+  },
+  {
+    "name": "Бругмансия домашняя",
+    "light": ["рассеянный"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "большое",
+    "path" : "Бругмансиядомашняя.jpg"
+  },
+  {
+    "name": "",
+    "light": ["рассеянный"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["рассеянный"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "Орхидея Лудизия",
+    "light": ["рассеянный"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "большое",
+    "path" : "ОрхидеяЛудизия.jpg"
+  },
+  {
+    "name": "Камнеломка комнатная",
+    "light": ["рассеянный"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path" : "Камнеломкакомнатная.jpg"
+  },
+  {
+    "name": "Аир",
+    "light": ["рассеянный"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path" : "Аир.jpg"
+  },
+  {
+    "name": "",
+    "light": ["рассеянный"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path" : ""
+  },
+  {
+    "name": "Нолина",
+    "light": ["рассеянный"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path" : "Нолина.jpg"
+  },
+  {
+    "name": "",
+    "light": ["рассеянный"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "Родофиала",
+    "light": ["рассеянный"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path" : "Родофиала.jpg"
+  },
+  {
+    "name": "Фикус Бенгальский",
+    "light": ["рассеянный"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "большое",
+    "path" : "ФикусБенгальский.jpg"
+  },
+  {
+    "name": "",
+    "light": ["рассеянный"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["рассеянный"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["рассеянный"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["рассеянный"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["рассеянный"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "среднее",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["рассеянный"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "Гардения Жасминовидная",
+    "light": ["рассеянный"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path" : "ГарденияЖасминовидная.jpg"
+  },
+  {
+    "name": "",
+    "light": ["рассеянный"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["рассеянный"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["рассеянный"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["рассеянный"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["рассеянный"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "среднее",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["рассеянный"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["рассеянный"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["рассеянный"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["рассеянный"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["рассеянный"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["рассеянный"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["рассеянный"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["рассеянный"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["рассеянный"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "среднее",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["рассеянный"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "Цикламен Фантазия",
+    "light": ["рассеянный", "полутень"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path" : "ЦикламенФантазия.jpg"
+  },
+  {
+    "name": "",
+    "light": ["рассеянный"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["рассеянный"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["рассеянный"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["рассеянный"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["рассеянный"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["рассеянный"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "среднее",
+    "path" : ""
+  },
+  {
+    "name": "",
+    "light": ["рассеянный"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "большое",
+    "path" : ""
+  },
+  {
+    "name": "Орхидея Масдеваллия",
+    "light": ["рассеянный"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path" : "ОрхидеяМасдеваллия.jpg"
+  },
+  {
+    "name": "",
+    "light": ["рассеянный"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "большое",
+    "path" : ""
+  }
+]
