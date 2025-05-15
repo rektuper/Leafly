@@ -5,6 +5,8 @@ from pydantic import BaseModel
 from pymongo import MongoClient
 from auth import router as auth_router, get_current_user
 from fastapi.routing import APIRoute
+from datetime import date
+
 
 # Модели
 class Plant(BaseModel):
@@ -21,6 +23,18 @@ class ScoredPlant(BaseModel):
     plant: Plant
     score: int
     explanation: List[str]
+
+
+# === КАЛЕНДАРЬ ===
+class CalendarEntry(BaseModel):
+    date: date
+    actions: List[str]
+
+
+class AddCalendarRequest(BaseModel):
+    plant_name: str
+    entry: CalendarEntry
+
 
 # FastAPI-приложение
 app = FastAPI()
@@ -41,6 +55,8 @@ client = MongoClient("mongodb://localhost:27017/")
 db = client["plants"]
 plants_collection = db["plants"]
 user_data_collection = db["profiles"]
+care_calendar_collection = db["care_calendar"]
+
 
 def level_map(value: str, type_: str) -> int:
     levels = {
@@ -51,16 +67,15 @@ def level_map(value: str, type_: str) -> int:
     }
     return levels.get(type_, {}).get(value, 0)
 
+
 def rate_plant(plant: Dict[str, Any], criteria: Dict[str, str]) -> (int, List[str]):
     score = 0
     explanation = []
 
-    # Освещение
     if criteria["light"] in plant.get("light", []):
         score += 2
         explanation.append("Освещение соответствует")
 
-    # Влажность
     h_user = level_map(criteria["humidity"], "humidity")
     h_plant = level_map(plant["humidity"], "humidity")
     if h_user == h_plant:
@@ -70,7 +85,6 @@ def rate_plant(plant: Dict[str, Any], criteria: Dict[str, str]) -> (int, List[st
         score += 1
         explanation.append("Влажность допустима")
 
-    # Температура
     t_user = level_map(criteria["temperature"], "temperature")
     t_plant = level_map(plant["temperature"], "temperature")
     if t_user == t_plant:
@@ -80,7 +94,6 @@ def rate_plant(plant: Dict[str, Any], criteria: Dict[str, str]) -> (int, List[st
         score += 1
         explanation.append("Температура допустима")
 
-    # Опыт
     e_user = level_map(criteria["experience"], "experience")
     e_plant = level_map(plant["experience"], "experience")
     if e_plant <= e_user:
@@ -92,7 +105,6 @@ def rate_plant(plant: Dict[str, Any], criteria: Dict[str, str]) -> (int, List[st
     else:
         explanation.append("Требует значительно больше опыта")
 
-    # Пространство
     s_user = level_map(criteria["space"], "space")
     s_plant = level_map(plant["space"], "space")
     if s_plant <= s_user:
@@ -106,7 +118,7 @@ def rate_plant(plant: Dict[str, Any], criteria: Dict[str, str]) -> (int, List[st
 
     return score, explanation
 
-# Рекомендации
+
 @app.post("/recommend_plants/", response_model=List[ScoredPlant])
 async def recommend_plants(criteria: Dict[str, str]):
     plants = list(plants_collection.find({}, {"_id": 0}))
@@ -129,7 +141,6 @@ async def recommend_plants(criteria: Dict[str, str]):
     perfect.sort(key=lambda x: x["score"], reverse=True)
     possible.sort(key=lambda x: x["score"], reverse=True)
 
-    # Максимум 2 идеальных и 3 возможных
     return perfect[:2] + possible[:3]
 
 
@@ -137,7 +148,6 @@ async def recommend_plants(criteria: Dict[str, str]):
 def get_all_plants():
     plants = list(plants_collection.find({}, {"_id": 0}))
     return plants
-
 
 
 @app.post("/profile/add_plant")
@@ -152,8 +162,17 @@ def add_plant_to_profile(plant_name: str = Body(...), current_user: dict = Depen
 
     if result.modified_count == 0:
         raise HTTPException(status_code=404, detail="Не удалось добавить растение")
+    filter_query = {"user": current_user["username"], "plant_name": plant_name}
+    existing = care_calendar_collection.find_one(filter_query)
+    if not existing:
+        care_calendar_collection.insert_one({
+            "user": current_user["username"],
+            "plant_name": plant_name,
+            "entries": []
+        })
 
-    return {"message": "Растение успешно добавлено"}
+    return {"message": "Растение успешно добавлено и календарь создан"}
+
 
 @app.delete("/profile/remove_plant")
 def remove_plant_from_profile(plant_name: str = Body(...), current_user: dict = Depends(get_current_user)):
@@ -171,14 +190,13 @@ def remove_plant_from_profile(plant_name: str = Body(...), current_user: dict = 
     return {"message": "Растение удалено из профиля"}
 
 
-
-# Получить список избранных растений (полные данные) текущего пользователя
 @app.get("/profile/favorites", response_model=List[Plant])
 def get_favorites(current_user: dict = Depends(get_current_user)):
     if not current_user:
         raise HTTPException(status_code=401, detail="Неавторизованный доступ")
 
-    user_profile = user_data_collection.find_one({"username": current_user["username"]}, {"favoritescolors": 1, "_id": 0})
+    user_profile = user_data_collection.find_one({"username": current_user["username"]},
+                                                 {"favoritescolors": 1, "_id": 0})
     if not user_profile or "favoritescolors" not in user_profile:
         return []
 
@@ -186,7 +204,7 @@ def get_favorites(current_user: dict = Depends(get_current_user)):
     plants = list(plants_collection.find({"name": {"$in": favorite_names}}, {"_id": 0}))
     return plants
 
-# Добавить растение в избранное
+
 @app.post("/profile/favorites/add")
 def add_favorite(plant_name: str = Body(...), current_user: dict = Depends(get_current_user)):
     if not current_user:
@@ -206,7 +224,7 @@ def add_favorite(plant_name: str = Body(...), current_user: dict = Depends(get_c
 
     return {"message": "Растение добавлено в избранное"}
 
-# Удалить растение из избранного
+
 @app.delete("/profile/favorites/remove")
 def remove_favorite(plant_name: str = Body(...), current_user: dict = Depends(get_current_user)):
     if not current_user:
@@ -221,6 +239,75 @@ def remove_favorite(plant_name: str = Body(...), current_user: dict = Depends(ge
         raise HTTPException(status_code=404, detail="Растение не найдено в избранном")
 
     return {"message": "Растение удалено из избранного"}
+
+
+# === КАЛЕНДАРЬ ===
+
+@app.get("/calendar/{plant_name}", response_model=List[CalendarEntry])
+def get_calendar(plant_name: str, current_user: dict = Depends(get_current_user)):
+    record = care_calendar_collection.find_one({
+        "user": current_user["username"],
+        "plant_name": plant_name
+    })
+
+    if not record:
+        return []
+
+    return record["entries"]
+
+
+@app.post("/calendar/add")
+def add_calendar_entry(
+    data: AddCalendarRequest,
+    current_user: dict = Depends(get_current_user)
+):
+    filter_query = {
+        "user": current_user["username"],
+        "plant_name": data.plant_name
+    }
+
+    existing = care_calendar_collection.find_one(filter_query)
+
+    entry_dict = data.entry.dict()
+    entry_dict['date'] = entry_dict['date'].isoformat()
+
+    if not existing:
+        care_calendar_collection.insert_one({
+            "user": current_user["username"],
+            "plant_name": data.plant_name,
+            "entries": [entry_dict]
+        })
+    else:
+        updated_entries = [e for e in existing["entries"] if e["date"] != entry_dict['date']]
+        updated_entries.append(entry_dict)
+        care_calendar_collection.update_one(
+            filter_query,
+            {"$set": {"entries": updated_entries}}
+        )
+
+    return {"message": "Запись добавлена/обновлена"}
+
+
+
+@app.delete("/calendar/delete")
+def delete_calendar_entry(
+        plant_name: str = Body(...),
+        date_str: str = Body(...),
+        current_user: dict = Depends(get_current_user)
+):
+    filter_query = {
+        "user": current_user["username"],
+        "plant_name": plant_name
+    }
+
+    care_calendar_collection.update_one(
+        filter_query,
+        {"$pull": {"entries": {"date": date_str}}}
+    )
+
+    return {"message": "Запись удалена"}
+
+
 
 
 

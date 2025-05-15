@@ -1,0 +1,15 @@
+.diaryPage {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 33%;
+  padding: 1rem;
+  border-right: 1px solid #ccc;
+}
+
+.calendarContainer {
+  width: 67%;
+  padding: 1rem;
+}

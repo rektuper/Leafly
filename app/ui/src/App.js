@@ -9,6 +9,7 @@ import MainPage from "./components/MainPage";
 import MyPlants from "./components/MyPlants";
 import SelectionPage from "./components/SelectionPage";
 import FavoritePage from "./components/FavoritePage";
+import DiaryPage from "./components/DiaryPage";
 
 // Заглушки для остальных страниц
 const Room = () => <h2 style={{ padding: "1rem" }}>🛏 Моя комната</h2>;
@@ -95,8 +96,7 @@ function App() {
                   </PrivateRoute>
                 }
               />
-              <Route path="/room" element={<Room />} />
-              <Route path="/diary" element={<Diary />} />
+              <Route path="/diary" element={<DiaryPage />} />
               <Route path="/myplants" element={<MyPlants />} />
               <Route path="*" element={<Navigate to="/" replace />} />
               <Route path="/selection" element={<SelectionPage />} />
