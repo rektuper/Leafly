@@ -1,0 +1,38 @@
+.main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.photos{
+    margin-top: 50px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.photos img{
+    height: 350px;
+    width: 300px;
+}
+
+.discription{
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.discription h1, p{
+    text-align: center;
+
+}
+.discription p{
+    font-size: 18px;
+}
+
+.photos img{
+    box-shadow: 5px 5px 10px black;
+}

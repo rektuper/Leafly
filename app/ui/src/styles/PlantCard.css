@@ -1,0 +1,30 @@
+.plant-card {
+  background-color: #ffe6f7;
+  border: 2px solid #d09dd9;
+  border-radius: 16px;
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  box-shadow: 0 0 10px rgba(192, 0, 128, 0.2);
+}
+
+.plant-card h2 {
+  color: #800080;
+  margin-bottom: 10px;
+}
+
+.plant-card img {
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+.plant-card ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.plant-card li {
+  color: #6a1b9a;
+}

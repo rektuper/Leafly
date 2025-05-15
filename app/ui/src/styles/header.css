@@ -1,0 +1,56 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, #b56bcb, #e89ac7);
+  color: white;
+  padding: 1rem 2rem;
+  position: relative;
+  height: 50px;
+}
+
+.username-btn {
+  background: transparent;
+  color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.user-menu-container {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  right: 0;
+  top: 110%;
+  background: white;
+  color: #333;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  z-index: 100;
+  min-width: 180px;
+}
+
+.menu-item {
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.menu-item:hover {
+  background: #f3e2f5;
+}
+
+.menu-item.active {
+  background: #f3c4e2;
+  font-weight: bold;
+}
+
+.menu-item.logout {
+  color: red;
+}

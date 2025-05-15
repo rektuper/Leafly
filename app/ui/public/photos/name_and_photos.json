@@ -1,0 +1,2702 @@
+[
+  {
+    "name": "Кактус",
+    "light": ["яркое"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path": "Кактус.jpg"
+  },
+  {
+    "name": "Граптопеталум",
+    "light": ["яркое"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path": "Граптопеталум.jpg"
+  },
+  {
+    "name": "Юкка",
+    "light": ["яркое"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "большое",
+    "path": "Юкка.jpg"
+  },
+  {
+    "name": "Кливия",
+    "light": ["яркое"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path": "Кливия.jpg"
+  },
+  {
+    "name": "Фиттония",
+    "light": ["яркое"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "среднее",
+    "path": "Фиттония.jpg"
+  },
+  {
+    "name": "Пальма Вашингтония",
+    "light": ["яркое"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "большое",
+    "path": "ПальмаВашингтония.jpg"
+  },
+  {
+    "name": "Африканская фиалка",
+    "light": ["яркое"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path": "Африканскаяфиалка.jpg"
+  },
+  {
+    "name": "Гузмания",
+    "light": ["яркое"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path": "Гузмания.jpg"
+  },
+  {
+    "name": "Циперус",
+    "light": ["яркое"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "большое",
+    "path": "Циперус.jpg"
+  },
+  {
+    "name": "Кактус Эхиноцереус",
+    "light": ["яркое"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path": "КактусЭхиноцереус.jpg"
+  },
+  {
+    "name": "Агаве",
+    "light": ["яркое"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path": "Агаве.jpg"
+  },
+  {
+    "name": "Пахира",
+    "light": ["яркое"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "большое",
+    "path": "Пахира.jpg"
+  },
+  {
+    "name": "Эпипремнум золотой",
+    "light": ["яркое"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path": "Эпипремнумзолотой.jpg"
+  },
+  {
+    "name": "Аспидистра",
+    "light": ["яркое"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "среднее",
+    "path": "Аспидистра.jpg"
+  },
+  {
+    "name": "Аглаонема",
+    "light": ["яркое"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "большое",
+    "path": "Аглаонема.jpg"
+  },
+  {
+    "name": "Коллеус",
+    "light": ["яркое"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path": "Коллеус.jpg"
+  },
+  {
+    "name": "Фикус Бенджамина",
+    "light": ["яркое"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path": "ФикусБенджамина.jpg"
+  },
+  {
+    "name": "Шеффлера",
+    "light": ["яркое"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "большое",
+    "path": "Шеффлера.jpg"
+  },
+  {
+    "name": "Эхеверия",
+    "light": ["яркое"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path": "Эхеверия.jpg"
+  },
+  {
+    "name": "Фикус Эластика",
+    "light": ["яркое"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path": "ФикусЭластика.jpg"
+  },
+  {
+    "name": "Хавортия",
+    "light": ["яркое"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path": "Хавортия.jpg"
+  },
+  {
+    "name": "Кротон",
+    "light": ["яркое"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "среднее",
+    "path": "Кротон.jpg"
+  },
+  {
+    "name": "Филодендрон",
+    "light": ["яркое"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "большое",
+    "path": "Филодендрон.jpg"
+  },
+  {
+    "name": "Циссус",
+    "light": ["яркое"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path": "Циссус.jpg"
+  },
+  {
+    "name": "Альпиния",
+    "light": ["яркое"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path": "Альпиния.jpg"
+  },
+  {
+    "name": "Алоказия",
+    "light": ["яркое"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "большое",
+    "path": "Алоказия.jpg"
+  },
+  {
+    "name": "Каланхоэ",
+    "light": ["яркое"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path": "Каланхоэ.jpg"
+  },
+  {
+    "name": "Гастерия",
+    "light": ["яркое"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path": "Гастерия.jpg"
+  },
+  {
+    "name": "Дазилирион",
+    "light": ["яркое"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "большое",
+    "path": "Дазилирион.jpg"
+  },
+  {
+    "name": "Герань",
+    "light": ["яркое"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path": "Герань.jpg"
+  },
+  {
+    "name": "Хамедорея",
+    "light": ["яркое"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "среднее",
+    "path": "Хамедорея.jpg"
+  },
+  {
+    "name": "Пальма Рапис",
+    "light": ["яркое"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "большое",
+    "path": "ПальмаРапис.jpg"
+  },
+  {
+    "name": "Джункус",
+    "light": ["яркое"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path": "Джункус.jpg"
+  },
+  {
+    "name": "Аглаонема Анимани Пинк",
+    "light": ["яркое"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path": "АглаонемаАниманиПинк.jpg"
+  },
+  {
+    "name": "Филодендрон Бипиннатифидум",
+    "light": ["яркое"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "большое",
+    "path": "ФилодендронБипиннатифидум.jpg"
+  },
+  {
+    "name": "Эспостоа",
+    "light": ["яркое"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path": "Эспостоа.jpg"
+  },
+  {
+    "name": "Бригамия",
+    "light": ["яркое"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path": "Бригамия.jpg"
+  },
+  {
+    "name": "Пальма Феникс",
+    "light": ["яркое"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "большое",
+    "path": "ПальмаФеникс.jpg"
+  },
+  {
+    "name": "Каламондин",
+    "light": ["яркое"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path": "Каламондин.jpg"
+  },
+  {
+    "name": "Брахея",
+    "light": ["яркое"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "большое",
+    "path": "Брахея.jpg"
+  },
+  {
+    "name": "Акантостахис",
+    "light": ["яркое"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path": "Акантостахис.jpg"
+  },
+  {
+    "name": "Роза комнатная",
+    "light": ["яркое"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path": "Розакомнатная.jpg"
+  },
+  {
+    "name": "Арундинария",
+    "light": ["яркое"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "большое",
+    "path": "Арундинария.jpg"
+  },
+  {
+    "name": "Конофитум",
+    "light": ["яркое"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path": "Конофитум.jpg"
+  },
+  {
+    "name": "Цереус",
+    "light": ["яркое"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path": "Цереус.jpg"
+  },
+  {
+    "name": "Финиковая пальма",
+    "light": ["яркое"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "большое",
+    "path": "Финиковаяпальма.jpg"
+  },
+  {
+    "name": "Эпипремнум",
+    "light": ["яркое"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path": "Эпипремнум.jpg"
+  },
+  {
+    "name": "Нерине",
+    "light": ["яркое"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "среднее",
+    "path": "Нерине.jpg"
+  },
+  {
+    "name": "Кентия",
+    "light": ["яркое"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "большое",
+    "path": "Кентия.jpg"
+  },
+  {
+    "name": "Стрептокарпус",
+    "light": ["яркое"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path": "Стрептокарпус.jpg"
+  },
+  {
+    "name": "Орхидея Аскоцентрум",
+    "light": ["яркое"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path": "ОрхидеяАскоцентрум.jpg"
+  },
+  {
+    "name": "Пальма Арека",
+    "light": ["яркое"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "большое",
+    "path": "ПальмаАрека.jpg"
+  },
+  {
+    "name": "Крассула",
+    "light": ["яркое"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path": "Крассула.jpg"
+  },
+  {
+    "name": "Эуфорбия Миля",
+    "light": ["яркое"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path": "ЭуфорбияМиля.jpg"
+  },
+  {
+    "name": "Драцена Маргината",
+    "light": ["яркое"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "большое",
+    "path": "ДраценаМаргината.jpg"
+  },
+  {
+    "name": "Пилея",
+    "light": ["яркое"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path": "Пилея.jpg"
+  },
+  {
+    "name": "Хедера",
+    "light": ["яркое"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "среднее",
+    "path": "Хедера.jpg"
+  },
+  {
+    "name": "Юкка слоновая",
+    "light": ["яркое"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "большое",
+    "path": "Юккаслоновая.jpg"
+  },
+  {
+    "name": "Адиантум",
+    "light": ["яркое"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path": "Адиантум.jpg"
+  },
+  {
+    "name": "Асплениум",
+    "light": ["яркое"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path": "Асплениум.jpg"
+  },
+  {
+    "name": "Суккулент Седум",
+    "light": ["яркое"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path": "СуккулентСедум.jpg"
+  },
+  {
+    "name": "Хойя",
+    "light": ["яркое"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path": "Хойя.jpg"
+  },
+  {
+    "name": "Пальма Хауса",
+    "light": ["яркое"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "большое",
+    "path": "ПальмаХауса.jpg"
+  },
+  {
+    "name": "Афеландра",
+    "light": ["яркое"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path": "Афеландра.jpg"
+  },
+  {
+    "name": "Строманта",
+    "light": ["яркое"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "среднее",
+    "path": "Строманта.jpg"
+  },
+  {
+    "name": "Банан комнатный",
+    "light": ["яркое"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "большое",
+    "path": "Бананкомнатный.jpg"
+  },
+  {
+    "name": "Маранта",
+    "light": ["яркое"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path": "Маранта.jpg"
+  },
+  {
+    "name": "Лавр",
+    "light": ["яркое"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path": "Лавр.jpg"
+  },
+  {
+    "name": "Глоксиния",
+    "light": ["яркое"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path": "Глоксиния.jpg"
+  },
+  {
+    "name": "Стевия",
+    "light": ["яркое"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path": "Стевия.jpg"
+  },
+  {
+    "name": "Бамбук",
+    "light": ["яркое"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "большое",
+    "path": "Бамбук.jpg"
+  },
+  {
+    "name": "Литопс",
+    "light": ["яркое"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path": "Литопс.jpg"
+  },
+  {
+    "name": "Гипоэструм",
+    "light": ["яркое"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "среднее",
+    "path": "Гипоэструм.jpg"
+  },
+  {
+    "name": "Рафидофора",
+    "light": ["яркое"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "большое",
+    "path": "Рафидофора.jpg"
+  },
+  {
+    "name": "Нефролепис",
+    "light": ["яркое"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path": "Нефролепис.jpg"
+  },
+  {
+    "name": "Кипарисовик",
+    "light": ["яркое"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path": "Кипарисовик.jpg"
+  },
+  {
+    "name": "Аихризон",
+    "light": ["полутень"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path": "Аихризон.jpg"
+  },
+  {
+    "name": "Ховея Форстера",
+    "light": ["полутень"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "большое",
+    "path": "ХовеяФорстера.jpg"
+  },
+  {
+    "name": "Пилея Кадиери",
+    "light": ["полутень"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path": "ПилеяКадиери.jpg"
+  },
+  {
+    "name": "Драцена",
+    "light": ["полутень"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "среднее",
+    "path": "Драцена.jpg"
+  },
+  {
+    "name": "Монстера Делициоза",
+    "light": ["полутень"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "большое",
+    "path": "МонстераДелициоза.jpg"
+  },
+  {
+    "name": "Селагинелла",
+    "light": ["полутень"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path": "Селагинелла.jpg"
+  },
+  {
+    "name": "Папоротник Бостон",
+    "light": ["полутень"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path": "ПапоротникБостон.jpg"
+  },
+  {
+    "name": "Алоказия амазонская",
+    "light": ["полутень"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "большое",
+    "path": "Алоказияамазонская.jpg"
+  },
+  {
+    "name": "Фикус Карика",
+    "light": ["полутень"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path": "ФикусКарика.jpg"
+  },
+  {
+    "name": "Калла",
+    "light": ["полутень"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path": "Калла.jpg"
+  },
+  {
+    "name": "Кафрская пальма",
+    "light": ["полутень"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "большое",
+    "path": "Кафрскаяпальма.jpg"
+  },
+  {
+    "name": "Толстянка",
+    "light": ["полутень"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path": "Толстянка.jpg"
+  },
+  {
+    "name": "Филодендрон Пилосус",
+    "light": ["полутень"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "большое",
+    "path": "ФилодендронПилосус.jpg"
+  },
+  {
+    "name": "Криптантус",
+    "light": ["полутень"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path": "Криптантус.jpg"
+  },
+  {
+    "name": "Диффенбахия",
+    "light": ["полутень"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path": "Диффенбахия.jpg"
+  },
+  {
+    "name": "Сингониум",
+    "light": ["полутень"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "большое",
+    "path": "Сингониум.jpg"
+  },
+  {
+    "name": "Рипсалидопсис",
+    "light": ["полутень"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path": "Рипсалидопсис.jpg"
+  },
+  {
+    "name": "Алоказия Полли",
+    "light": ["полутень"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path": "АлоказияПолли.jpg"
+  },
+  {
+    "name": "Араукария",
+    "light": ["полутень"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "большое",
+    "path": "Араукария.jpg"
+  },
+  {
+    "name": "Орхидея Плейоне",
+    "light": ["полутень"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path": "ОрхидеяПлейоне.jpg"
+  },
+  {
+    "name": "Антуриум",
+    "light": ["полутень"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "среднее",
+    "path": "Антуриум.jpg"
+  },
+  {
+    "name": "Калатея Орбифолия",
+    "light": ["полутень"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "большое",
+    "path": "КалатеяОрбифолия.jpg"
+  },
+  {
+    "name": "Каллисия душистая",
+    "light": ["полутень"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path": "Каллисиядушистая.jpg"
+  },
+  {
+    "name": "Геликония",
+    "light": ["полутень"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "большое",
+    "path": "Геликония.jpg"
+  },
+  {
+    "name": "Замиокулькас Акебоно",
+    "light": ["полутень"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path": "ЗамиокулькасАкебоно.jpg"
+  },
+  {
+    "name": "Калоцефалус",
+    "light": ["полутень"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "большое",
+    "path": "Калоцефалус.jpg"
+  },
+  {
+    "name": "Пеперомия",
+    "light": ["полутень"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path": "Пеперомия.jpg"
+  },
+  {
+    "name": "Толмия",
+    "light": ["полутень"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path": "Толмия.jpg"
+  },
+  {
+    "name": "Хамедорея Элеганс",
+    "light": ["полутень"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path": "ХамедореяЭлеганс.jpg"
+  },
+  {
+    "name": "Каланхоэ Блоссфельда",
+    "light": ["полутень"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path": "КаланхоэБлоссфельда.JPG"
+  },
+  {
+    "name": "Замиокулькас",
+    "light": ["полутень"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path": "Замиокулькас.jpg"
+  },
+  {
+    "name": "Драцена Сандера",
+    "light": ["полутень"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "большое",
+    "path": "ДраценаСандера.jpg"
+  },
+  {
+    "name": "Хлорофитум",
+    "light": ["полутень"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path": "Хлорофитум.jpg"
+  },
+  {
+    "name": "Скиммия",
+    "light": ["полутень"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "среднее",
+    "path": "Скиммия.jpg"
+  },
+  {
+    "name": "Криптомерия японская",
+    "light": ["полутень"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "большое",
+    "path": "Криптомерияяпонская.jpg"
+  },
+  {
+    "name": "Монстера",
+    "light": ["полутень"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "большое",
+    "path": "Монстера.jpg"
+  },
+  {
+    "name": "Пахира водная",
+    "light": ["полутень"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path": "Пахираводная.jpg"
+  },
+  {
+    "name": "Фиттония беложильчатая",
+    "light": ["полутень"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path": "Фиттониябеложильчатая.jpg"
+  },
+  {
+    "name": "Плюмерия",
+    "light": ["полутень"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "среднее",
+    "path": "Плюмерия.jpg"
+  },
+  {
+    "name": "Дизиготека",
+    "light": ["полутень"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "большое",
+    "path": "Дизиготека.jpg"
+  },
+  {
+    "name": "Орхидея Максиллярия",
+    "light": ["полутень"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path": "ОрхидеяМаксиллярия.jpg"
+  },
+  {
+    "name": "Адиантум венерин волос",
+    "light": ["полутень"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "большое",
+    "path": "Адиантумвенеринволос.jpg"
+  },
+  {
+    "name": "Криптокорина",
+    "light": ["полутень"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path": "Криптокорина.jpg"
+  },
+  {
+    "name": "Рипсалис",
+    "light": ["полутень"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "среднее",
+    "path": "Рипсалис.jpg"
+  },
+  {
+    "name": "Папоротник",
+    "light": ["полутень"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "большое",
+    "path": "Папоротник.jpg"
+  },
+  {
+    "name": "Эписция",
+    "light": ["полутень"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path": "Эписция.jpg"
+  },
+  {
+    "name": "Каладиум",
+    "light": ["полутень"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path": "Каладиум.jpg"
+  },
+  {
+    "name": "Драцена Фрагранс",
+    "light": ["полутень"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "большое",
+    "path": "ДраценаФрагранс.jpg"
+  },
+  {
+    "name": "Пеларгония",
+    "light": ["полутень"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path": "Пеларгония.jpg"
+  },
+  {
+    "name": "Тилландсия",
+    "light": ["полутень"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "большое",
+    "path": "Тилландсия.jpg"
+  },
+  {
+    "name": "Примула комнатная",
+    "light": ["полутень"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path": "Примулакомнатная.jpg"
+  },
+  {
+    "name": "Драцена Деремская",
+    "light": ["полутень"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "среднее",
+    "path": "ДраценаДеремская.jpg"
+  },
+  {
+    "name": "Кенгуровая лапка",
+    "light": ["полутень"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "большое",
+    "path": "Кенгуроваялапка.jpg"
+  },
+  {
+    "name": "Кальцеолярия",
+    "light": ["полутень"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path": "Кальцеолярия.jpg"
+  },
+  {
+    "name": "Пеперомия круглолистная",
+    "light": ["полутень"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path": "Пеперомиякруглолистная.jpg"
+  },
+  {
+    "name": "Фатсия",
+    "light": ["полутень"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path": "Фатсия.jpg"
+  },
+  {
+    "name": "Канна",
+    "light": ["полутень"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "большое",
+    "path": "Канна.jpg"
+  },
+  {
+    "name": "КалатеяРозеопикта",
+    "light": ["полутень"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path": "КалатеяРозеопикта.jpg"
+  },
+  {
+    "name": "Циртомиум",
+    "light": ["полутень"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "среднее",
+    "path": "Циртомиум.jpg"
+  },
+  {
+    "name": "Орхидея Дракула",
+    "light": ["полутень"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path": "ОрхидеяДракула.jpg"
+  },
+  {
+    "name": "Бромелия",
+    "light": ["полутень"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path": "Бромелия.jpg"
+  },
+  {
+    "name": "Орхидея Цимбидиум",
+     "light": ["полутень"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "большое",
+    "path": "ОрхидеяЦимбидиум.jpg"
+  },
+  {
+    "name": "Сансевиерия карликовая",
+    "light": ["тень"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path": "Сансевиериякарликовая.jpg"
+  },
+  {
+    "name": "Сансевиерия Цилиндрика",
+    "light": ["тень"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path": "СансевиерияЦилиндрика.jpg"
+  },
+  {
+    "name": "Драцена Рефлекса",
+    "light": ["тень"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "большое",
+    "path": "ДраценаРефлекса.jpg"
+  },
+  {
+    "name": "Хлорофитум хохлатый",
+    "light": ["тень"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path": "Хлорофитумхохлатый.jpg"
+  },
+  {
+    "name": "Калатея Фредди",
+    "light": ["тень"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "среднее",
+    "path": "КалатеяФредди.jpg"
+  },
+  {
+    "name": "Шеффлера древовидная",
+    "light": ["тень"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "большое",
+    "path": "Шеффлерадревовидная.jpg"
+  },
+  {
+    "name": "Пилея Кадье",
+    "light": ["тень"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path": "ПилеяКадье.jpg"
+  },
+  {
+    "name": "Калатея Макоя",
+    "light": ["тень"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path": "КалатеяМакоя.jpg"
+  },
+  {
+    "name": "Лансифолия",
+    "light": ["тень"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "большое",
+    "path": "Лансифолия.jpg"
+  },
+  {
+    "name": "Крассула Перфората",
+    "light": ["тень"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path": "КрассулаПерфората.jpg"
+  },
+  {
+    "name": "Кампанула",
+    "light": ["тень"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path": "Кампанула.jpg"
+  },
+  {
+    "name": "Пальма Кармона",
+    "light": ["тень"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "большое",
+    "path": "ПальмаКармона.jpg"
+  },
+  {
+    "name": "Фикус Пумила",
+    "light": ["тень"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path": "ФикусПумила.jpg"
+  },
+  {
+    "name": "Драцена Драконово дерево",
+    "light": ["тень"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "большое",
+    "path": "ДраценаДраконоводерево.jpg"
+  },
+  {
+    "name": "Лобелия",
+    "light": ["тень"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path": "Лобелия.jpg"
+  },
+  {
+    "name": "Дихондра",
+    "light": ["тень"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path": "Дихондра.jpg"
+  },
+  {
+    "name": "Тетрастигма",
+    "light": ["тень"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "большое",
+    "path": "Тетрастигма.jpg"
+  },
+  {
+    "name": "Плектрантус",
+    "light": ["тень"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path": "Плектрантус.jpg"
+  },
+  {
+    "name": "Циссус антарктический",
+    "light": ["тень"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path": "Циссусантарктический.jpg"
+  },
+  {
+    "name": "Панданус",
+    "light": ["тень"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "большое",
+    "path": "Панданус.jpg"
+  },
+  {
+    "name": "Пеперомия Каперата",
+    "light": ["тень"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path": "ПеперомияКаперата.jpg"
+  },
+  {
+    "name": "Асплениум Нидус",
+    "light": ["тень"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "среднее",
+    "path": "АсплениумНидус.jpg"
+  },
+  {
+    "name": "Филодендрон Ксанаду",
+    "light": ["тень"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "большое",
+    "path": "ФилодендронКсанаду.jpg"
+  },
+  {
+    "name": "ФилодендронРозоваяПринцесса",
+    "light": ["тень"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path": "ФилодендронРозоваяПринцесса.jpg"
+  },
+  {
+    "name": "Калатея Орната",
+    "light": ["тень"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "большое",
+    "path": "КалатеяОрната.jpg"
+  },
+  {
+    "name": "Суккуленты",
+    "light": ["тень"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path": "Суккуленты.jpg"
+  },
+  {
+    "name": "Клеродендрум",
+    "light": ["тень"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path": "Клеродендрум.jpg"
+  },
+  {
+    "name": "Пахиподиум",
+    "light": ["тень"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "большое",
+    "path": "Пахиподиум.jpg"
+  },
+  {
+    "name": "Традесканция",
+    "light": ["тень"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path": "Традесканция.jpg"
+  },
+  {
+    "name": "Шлюмбергера",
+    "light": ["тень"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "среднее",
+    "path": "Шлюмбергера.jpg"
+  },
+  {
+    "name": "Бальзамин Уоллера",
+    "light": ["тень"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path": "БальзаминУоллера.jpg"
+  },
+  {
+    "name": "Микросорум",
+    "light": ["тень"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path": "Микросорум.jpg"
+  },
+  {
+    "name": "Хедера Хеликс",
+    "light": ["тень"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "большое",
+    "path": "ХедераХеликс.jpg"
+  },
+  {
+    "name": "Гиацинт",
+    "light": ["тень"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path": "Гиацинт.jpg"
+  },
+  {
+    "name": "Крестовник Роули",
+    "light": ["тень"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path": "КрестовникРоули.jpg"
+  },
+  {
+    "name": "Филодендрон Сканденс",
+    "light": ["тень"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "большое",
+    "path": "ФилодендронСканденс.jpg"
+  },
+  {
+    "name": "Ледебурия",
+    "light": ["тень"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path": "Ледебурия.jpg"
+  },
+  {
+    "name": "Фатсия японская",
+    "light": ["тень"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "среднее",
+    "path": "Фатсияяпонская.jpg"
+  },
+  {
+    "name": "Филодендрон Шелковистый",
+    "light": ["тень"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "большое",
+    "path": "ФилодендронШелковистый.jpg"
+  },
+  {
+    "name": "Фиттония розовая",
+    "light": ["тень"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path": "Фиттониярозовая.jpg"
+  },
+  {
+    "name": "Плющ",
+    "light": ["тень"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "большое",
+    "path": "Плющ.jpg"
+  },
+  {
+    "name": "Брунфелсия",
+    "light": ["тень"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path": "Брунфелсия.jpg"
+  },
+  {
+    "name": "Стапелия",
+    "light": ["тень"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path": "Стапелия.jpg"
+  },
+  {
+    "name": "Радермахера",
+    "light": ["тень"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path": "Радермахера.jpg"
+  },
+  {
+    "name": "Дипладения",
+    "light": ["тень"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "среднее",
+    "path": "Дипладения.jpg"
+  },
+  {
+    "name": "Ксантосома",
+    "light": ["тень"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "большое",
+    "path": "Ксантосома.jpg"
+  },
+  {
+    "name": "Гименокаллис",
+    "light": ["тень"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path": "Гименокаллис.jpg"
+  },
+  {
+    "name": "Камелия Японская",
+    "light": ["тень"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path": "КамелияЯпонская.jpg"
+  },
+  {
+    "name": "Нефролепис Экзальтата",
+    "light": ["тень"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "большое",
+    "path": "НефролеписЭкзальтата.jpg"
+  },
+  {
+    "name": "Сенполия мини",
+    "light": ["тень"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path": "Сенполиямини.jpg"
+  },
+  {
+    "name": "Кодиеум Вариегатум",
+    "light": ["тень"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path": "КодиеумВариегатум.jpg"
+  },
+  {
+    "name": "Рододендрон Симса",
+    "light": ["тень"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "среднее",
+    "path": "РододендронСимса.jpg"
+  },
+  {
+    "name": "Сансевиерия Зейланика",
+    "light": ["тень"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "большое",
+    "path": "СансевиерияЗейланика.jpg"
+  },
+  {
+    "name": "Колерия",
+    "light": ["тень"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path": "Колерия.jpg"
+  },
+  {
+    "name": "Бегония Мэсона",
+    "light": ["тень"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path": "БегонияМэсона.jpg"
+  },
+  {
+    "name": "Аспидистра высокая",
+    "light": ["тень"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "большое",
+    "path": "Аспидистравысокая.jpg"
+  },
+  {
+    "name": "Эониум",
+    "light": ["тень"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path": "Эониум.jpg"
+  },
+  {
+    "name": "Гибискус",
+    "light": ["тень"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "большое",
+    "path": "Гибискус.jpg"
+  },
+  {
+    "name": "Пуансеттия",
+    "light": ["тень"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path": "Пуансеттия.jpg"
+  },
+  {
+    "name": "Солейролия",
+    "light": ["тень"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "среднее",
+    "path": "Солейролия.jpg"
+  },
+  {
+    "name": "Тетрастигма Вуанье",
+    "light": ["тень"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "большое",
+    "path": "ТетрастигмаВуанье.jpg"
+  },
+  {
+    "name": "Фуксия",
+    "light": ["тень"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path": "Фуксия.jpg"
+  },
+  {
+    "name": "Аралия японская",
+    "light": ["тень"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path": "Аралияяпонская.jpg"
+  },
+  {
+    "name": "Маммиллярия",
+    "light": ["тень"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path": "Маммиллярия.jpg"
+  },
+  {
+    "name": "Можжевельник",
+    "light": ["тень"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path": "Можжевельник.jpg"
+  },
+  {
+    "name": "Самшит",
+    "light": ["тень"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "большое",
+    "path": "Самшит.jpg"
+  },
+  {
+    "name": "Хризантема",
+    "light": ["тень"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path": "Хризантема.jpg"
+  },
+  {
+    "name": "Вереск",
+    "light": ["тень"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "среднее",
+    "path": "Вереск.jpg"
+  },
+  {
+    "name": "Хебе",
+    "light": ["тень"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path": "Хебе.jpg"
+  },
+  {
+    "name": "Азалия",
+    "light": ["тень"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path": "Азалия.jpg"
+  },
+  {
+    "name": "Декоративная капуста",
+    "light": ["тень"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "большое",
+    "path": "Декоративнаякапуста.jpg"
+  },
+  {
+    "name": "Алоэ вера",
+    "light": ["рассеянное"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path": "Алоэвера.jpg"
+  },
+  {
+    "name": "Гинкго билоба",
+    "light": ["рассеянный"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "большое",
+    "path": "Гинкгобилоба.jpg"
+  },
+  {
+    "name": "Кротон Пиктум",
+    "light": ["рассеянный"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path": "КротонПиктум.jpg"
+  },
+  {
+    "name": "Эсхинантус",
+    "light": ["рассеянный"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "среднее",
+    "path": "Эсхинантус.jpg"
+  },
+  {
+    "name": "Спатифиллум Сенсация",
+    "light": ["рассеянный"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "большое",
+    "path": "СпатифиллумСенсация.jpg"
+  },
+  {
+    "name": "Пеперомия Обтусифолия",
+    "light": ["рассеянный"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path": "ПеперомияОбтусифолия.jpg"
+  },
+  {
+    "name": "Альбиция",
+    "light": ["рассеянное"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path": "Альбиция.jpg"
+  },
+  {
+    "name": "Филодендрон Империал",
+    "light": ["рассеянный"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "большое",
+    "path": "ФилодендронИмпериал.jpg"
+  },
+  {
+    "name": "Сансевиерия Ханни",
+    "light": ["рассеянный"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path": "СансевиерияХанни.jpg"
+  },
+  {
+    "name": "Крассула Овата Сансет",
+    "light": ["рассеянный"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path": "КрассулаОватаСансет.jpg"
+  },
+  {
+    "name": "Олеандр",
+    "light": ["рассеянный"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "большое",
+    "path": "Олеандр.jpg"
+  },
+  {
+    "name": "Спрекелия",
+    "light": ["рассеянный"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path": "Спрекелия.jpg"
+  },
+  {
+    "name": "Абелия",
+    "light": ["рассеянный"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "среднее",
+    "path": "Абелия.jpg"
+  },
+  {
+    "name": "Неоальсомитра",
+    "light": ["рассеянный"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "большое",
+    "path": "Неоальсомитра.jpg"
+  },
+  {
+    "name": "Спатифиллум",
+    "light": ["рассеянный"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path": "Спатифиллум.jpg"
+  },
+  {
+    "name": "Санхеция",
+    "light": ["рассеянный"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path": "Санхеция.jpg"
+  },
+  {
+    "name": "Стрелиция",
+    "light": ["рассеянный"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "большое",
+    "path": "Стрелиция.jpg"
+  },
+  {
+    "name": "Аспарагус",
+    "light": ["рассеянный"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path": "Аспарагус.jpg"
+  },
+  {
+    "name": "Церопегия",
+    "light": ["рассеянный"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path": "Церопегия.jpg"
+  },
+  {
+    "name": "Геснерия",
+    "light": ["рассеянный"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path": "Геснерия.jpg"
+  },
+  {
+    "name": "Глориоза Ротшильда",
+    "light": ["рассеянный"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "среднее",
+    "path": "ГлориозаРотшильда.jpg"
+  },
+  {
+    "name": "Фикус Лирата",
+    "light": ["рассеянный"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "большое",
+    "path": "ФикусЛирата.jpg"
+  },
+  {
+    "name": "Орхидея Фаленопсис",
+    "light": ["рассеянный"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path": "ОрхидеяФаленопсис.jpg"
+  },
+  {
+    "name": "Непентес",
+    "light": ["рассеянный"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path": "Непентес.jpg"
+  },
+  {
+    "name": "Бругмансия домашняя",
+    "light": ["рассеянный"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "большое",
+    "path": "Бругмансиядомашняя.jpg"
+  },
+  {
+    "name": "Розмарин",
+    "light": ["рассеянный"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path": "Розмарин.jpg"
+  },
+  {
+    "name": "Пальма Хамеропс",
+    "light": ["рассеянный"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "большое",
+    "path": "ПальмаХамеропс.jpg"
+  },
+  {
+    "name": "Фиалка",
+    "light": ["рассеянный"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path": "Фиалка.jpg"
+  },
+  {
+    "name": "Орхидея Лудизия",
+    "light": ["рассеянный"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "большое",
+    "path": "ОрхидеяЛудизия.jpg"
+  },
+  {
+    "name": "Камнеломка комнатная",
+    "light": ["рассеянный"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path": "Камнеломкакомнатная.jpg"
+  },
+  {
+    "name": "Аир",
+    "light": ["рассеянный"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path": "Аир.jpg"
+  },
+  {
+    "name": "Альбука спиральная",
+    "light": ["рассеянный"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path": "Альбукаспиральная.jpg"
+  },
+  {
+    "name": "Нолина",
+    "light": ["рассеянный"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path": "Нолина.jpg"
+  },
+  {
+    "name": "Каланхоэ Мангина",
+    "light": ["рассеянный"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "большое",
+    "path": "КаланхоэМангина.jpg"
+  },
+  {
+    "name": "Родофиала",
+    "light": ["рассеянный"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path": "Родофиала.jpg"
+  },
+  {
+    "name": "Фикус Бенгальский",
+    "light": ["рассеянный"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "большое",
+    "path": "ФикусБенгальский.jpg"
+  },
+  {
+    "name": "Бегония",
+    "light": ["рассеянный"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path": "Бегония.jpg"
+  },
+  {
+    "name": "Папоротник Нефролепис",
+    "light": ["рассеянный"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "большое",
+    "path": "ПапоротникНефролепис.jpg"
+  },
+  {
+    "name": "Гаутерия",
+    "light": ["рассеянный"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path": "Гаутерия.jpg"
+  },
+  {
+    "name": "Циперус Папирус",
+    "light": ["рассеянный"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "большое",
+    "path": "ЦиперусПапирус.jpg"
+  },
+  {
+    "name": "Дримиопсис",
+    "light": ["рассеянный"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path": "Дримиопсис.jpg"
+  },
+  {
+    "name": "Сизигиум",
+    "light": ["рассеянный"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "среднее",
+    "path": "Сизигиум.jpg"
+  },
+  {
+    "name": "Гетеропанакс",
+    "light": ["рассеянный"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "большое",
+    "path": "Гетеропанакс.jpg"
+  },
+  {
+    "name": "Гардения Жасминовидная",
+    "light": ["рассеянный"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path": "ГарденияЖасминовидная.jpg"
+  },
+  {
+    "name": "Якобиния",
+    "light": ["рассеянный"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "большое",
+    "path": "Якобиния.jpg"
+  },
+  {
+    "name": "Агапантус",
+    "light": ["рассеянный"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path": "Агапантус.jpg"
+  },
+  {
+    "name": "Сансевиерия Лауренти",
+    "light": ["рассеянный"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "большое",
+    "path": "СансевиерияЛауренти.jpg"
+  },
+  {
+    "name": "Глоксиния Тидея",
+    "light": ["рассеянный"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path": "ГлоксинияТидея.jpg"
+  },
+  {
+    "name": "Руэллия",
+    "light": ["рассеянный"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "среднее",
+    "path": "Руэллия.jpg"
+  },
+  {
+    "name": "Муррайя",
+    "light": ["рассеянный"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "большое",
+    "path": "Муррайя.jpg"
+  },
+  {
+    "name": "Жасмин",
+    "light": ["рассеянный"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path": "Жасмин.jpg"
+  },
+  {
+    "name": "Морозник",
+    "light": ["рассеянный"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path": "Морозник.jpg"
+  },
+  {
+    "name": "Суккулент Адромискус",
+    "light": ["рассеянный"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path": "СуккулентАдромискус.jpg"
+  },
+  {
+    "name": "Нертера",
+    "light": ["рассеянный"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path": "Нертера.jpg"
+  },
+  {
+    "name": "Пальма",
+    "light": ["рассеянный"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "большое",
+    "path": "Пальма.jpg"
+  },
+  {
+    "name": "Гриффиния",
+    "light": ["рассеянный"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path": "Гриффиния.jpg"
+  },
+  {
+    "name": "Календула",
+    "light": ["рассеянный"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "среднее",
+    "path": "Календула.jpg"
+  },
+  {
+    "name": "Фикус Тинеке",
+    "light": ["рассеянный"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "большое",
+    "path": "ФикусТинеке.jpg"
+  },
+  {
+    "name": "Цикламен",
+    "light": ["рассеянный"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path": "Цикламен.jpg"
+  },
+  {
+    "name": "Дионея",
+    "light": ["рассеянный"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path": "Дионея.jpg"
+  },
+  {
+    "name": "Лаванда",
+    "light": ["рассеянный"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path": "Лаванда.jpg"
+  },
+  {
+    "name": "Бересклет",
+    "light": ["рассеянный"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "большое",
+    "path": "Бересклет.jpg"
+  },
+  {
+    "name": "Иглица",
+    "light": ["рассеянный"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path": "Иглица.jpg"
+  },
+  {
+    "name": "Цинерария",
+    "light": ["рассеянный"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "среднее",
+    "path": "Цинерария.jpg"
+  },
+  {
+    "name": "Фатсхедера",
+    "light": ["рассеянный"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "большое",
+    "path": "Фатсхедера.jpg"
+  },
+  {
+    "name": "Орхидея Масдеваллия",
+    "light": ["рассеянный"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path": "ОрхидеяМасдеваллия.jpg"
+  },
+  {
+    "name": "Камелия",
+    "light": ["рассеянный"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path": "Камелия.jpg"
+  },
+  {
+    "name": "Цикас",
+    "light": ["яркое","рассеянный"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "большое",
+    "path": "Цикас.jpg"
+  },
+  {
+    "name": "Мирт",
+    "light": ["яркое","рассеянный"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "среднее",
+    "space": "среднее",
+    "path": "Мирт.jpg"
+  },
+  {
+    "name": "Аукуба Японская",
+    "light": ["яркое","рассеянный"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "большое",
+    "path": "АукубаЯпонская.jpg"
+  },
+  {
+    "name": "Кофейное дерево",
+    "light": ["яркое","рассеянный"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "большое",
+    "path": "Кофейноедерево.jpg"
+  },
+  {
+    "name": "Бегония королевская",
+    "light": ["яркое","рассеянный"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "большое",
+    "path": "Бегониякоролевская.jpg"
+  },
+  {
+    "name": "Сенполия",
+    "light": ["полутень","рассеянный"],
+    "temperature": "высокая",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "среднее",
+    "path": "Сенполия.jpg"
+  },
+  {
+    "name": "Амариллис",
+    "light": ["полутень","тень"],
+    "temperature": "высокая",
+    "experience": "средний",
+    "humidity": "средне",
+    "space": "среднее",
+    "path": "Амариллис.jpg"
+  },
+  {
+    "name": "Фиттония Вершафельта",
+    "light": ["полутень","тень"],
+    "temperature": "высокая",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path": "ФиттонияВершафельта.jpg"
+  },
+  {
+    "name": "Сансевиерия",
+    "light": ["полутень","рассеянный"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path": "Сансевиерия.jpg"
+  },
+  {
+    "name": "Бемерия",
+    "light": ["полутень","рассеянное"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "среднее",
+    "path": "Бемерия.jpg"
+  },
+  {
+    "name": "Кордилина",
+    "light": ["полутень","тень"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "большое",
+    "path": "Кордилина.jpg"
+  },
+  {
+    "name": "Спатифиллум Максимо",
+    "light": ["полутень","рассеянный"],
+    "temperature": "умеренная",
+    "experience": "новичок",
+    "humidity": "влажно",
+    "space": "большое",
+    "path": "СпатифиллумМаксимо.jpg"
+  },
+  {
+    "name": "Бальзамин",
+    "light": ["полутень","рассеянный"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path": "Бальзамин.jpg"
+  },
+  {
+    "name": "Калатея",
+    "light": ["полутень","тень"],
+    "temperature": "умеренная",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path": "Калатея.jpg"
+  },
+  {
+    "name": "Цикламен персидский",
+    "light": ["полутень","рассеянный"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path": "Цикламенперсидский.jpg"
+  },
+  {
+    "name": "Ктенанта Бореалис",
+    "light": ["полутень","тень"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "сухо",
+    "space": "большое",
+    "path": "КтенантаБореалис.jpg"
+  },
+  {
+    "name": "Серисса",
+    "light": ["полутень","рассеянный"],
+    "temperature": "умеренная",
+    "experience": "опытный",
+    "humidity": "влажно",
+    "space": "маленькое",
+    "path": "Серисса.jpg"
+  },
+  {
+    "name": "Сциндапсус",
+    "light": ["полутень","рассеянный"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path": "Сциндапсус.jpg"
+  },
+  {
+    "name": "Калианте",
+    "light": ["полутень","тень"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "сухо",
+    "space": "большое",
+    "path": "Калианте.jpg"
+  },
+  {
+    "name": "Камнеломка",
+    "light": ["полутень","тень"],
+    "temperature": "холодная",
+    "experience": "новичок",
+    "humidity": "средне",
+    "space": "маленькое",
+    "path": "Камнеломка.jpg"
+  },
+  {
+    "name": "Гербера",
+    "light": ["полутень","тень"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "сухо",
+    "space": "маленькое",
+    "path": "Гербера.jpg"
+  },
+  {
+    "name": "Цикламен Фантазия",
+    "light": ["полутень","рассеянный"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "среднее",
+    "path": "ЦикламенФантазия.jpg"
+  },
+  {
+    "name": "Папоротник Птерис",
+    "light": ["полутень","тень"],
+    "temperature": "холодная",
+    "experience": "средний",
+    "humidity": "влажно",
+    "space": "большое",
+    "path": "ПапоротникПтерис.jpg"
+  },
+  {
+    "name": "Эпипремнум Ауреум",
+    "light": ["полутень","тень"],
+    "temperature": "холодная",
+    "experience": "опытный",
+    "humidity": "средне",
+    "space": "большое",
+    "path": "ЭпипремнумАуреум.jpg"
+  }
+]
