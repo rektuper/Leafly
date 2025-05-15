@@ -8,7 +8,6 @@ from datetime import datetime, timedelta
 from typing import Optional
 
 
-
 SECRET_KEY = "23249930434aca721b389f9865779e5fb231eab484fb35613d7536f1edc7e041"
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 600
@@ -58,7 +57,7 @@ def get_user(username: str):
 
 
 def authenticate_user(login: str, password: str):
-    user = users_collection.find_one({"$or": [{"username": login}, {"email": login}]} )
+    user = users_collection.find_one({"$or": [{"username": login}, {"email": login}]})
     if not user or not verify_password(password, user["hashed_password"]):
         return False
     return user
@@ -112,7 +111,6 @@ def register(user: UserCreate):
     return {"msg": "Пользователь зарегистрирован"}
 
 
-
 @router.post("/login", response_model=Token)
 def login(form_data: OAuth2PasswordRequestForm = Depends()):
     user = authenticate_user(form_data.username, form_data.password)
@@ -127,6 +125,7 @@ def login(form_data: OAuth2PasswordRequestForm = Depends()):
 def read_users_me(current_user: dict = Depends(get_current_user)):
     return {"username": current_user["username"]}
 
+
 @router.get("/profile/me")
 def read_user_profile(current_user: dict = Depends(get_current_user)):
     if not current_user:
@@ -138,6 +137,7 @@ def read_user_profile(current_user: dict = Depends(get_current_user)):
     profile.pop("user_id", None)
     return profile
 
+
 @router.put("/profile/me")
 def update_user_profile(
     updated_data: dict = Body(...),
@@ -146,7 +146,6 @@ def update_user_profile(
     if not current_user:
         raise HTTPException(status_code=401, detail="Неавторизованный доступ")
 
-    # Удаляем _id, если он пришёл с фронта
     updated_data.pop("_id", None)
 
     result = user_data_collection.find_one_and_update(
@@ -161,5 +160,3 @@ def update_user_profile(
     result["_id"] = str(result["_id"])
     result.pop("user_id", None)
     return result
-
-

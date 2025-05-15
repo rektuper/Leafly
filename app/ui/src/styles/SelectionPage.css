@@ -1,0 +1,13 @@
+.selection-page {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.form-container {
+  flex: 1;
+}
+
+.results-container {
+  flex: 2;
+}

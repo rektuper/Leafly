@@ -1,30 +1,55 @@
-.plant-card {
-  background-color: #ffe6f7;
-  border: 2px solid #d09dd9;
-  border-radius: 16px;
-  padding: 15px;
-  margin: 10px;
-  text-align: center;
-  max-width: 250px;
-  box-shadow: 0 0 10px rgba(192, 0, 128, 0.2);
+.plant-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.plant-card h2 {
-  color: #800080;
-  margin-bottom: 10px;
+h2{
+    margin: 0;
+    margin-top: 10px;
+    height: 75px;
 }
 
-.plant-card img {
-  border-radius: 12px;
-  margin-bottom: 10px;
+.icons {
+    display: flex;
+    gap: 10px;
 }
 
-.plant-card ul {
-  list-style-type: disc;
-  padding-left: 20px;
-  text-align: left;
+.icon {
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: #d17dbf;
+    transition: transform 0.2s ease;
 }
 
-.plant-card li {
-  color: #6a1b9a;
+.icon:hover {
+    transform: scale(1.2);
+}
+
+.plant-card-recomend {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.plant-card-recomend img{
+    border-radius: 10px;
+}
+
+ul {
+    padding: 0;
+    margin-top: 5px;
+    margin-bottom: 0;
+    height: 150px;
+}
+
+li{
+    list-style-type: none;
+    width: 201px;
 }

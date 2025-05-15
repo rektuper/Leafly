@@ -10,7 +10,6 @@ function Header({ isLoggedIn, username, onLogout }) {
   const menuItems = [
     { label: "На главную", path: "/" },
     { label: "Личный кабинет", path: "/profile" },
-    { label: "Моя комната", path: "/room" },
     { label: "Дневник по уходу", path: "/diary" },
     { label: "Мои растения", path: "/myplants" },
   ];

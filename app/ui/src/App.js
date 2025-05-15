@@ -2,13 +2,13 @@ import { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import Register from "./components/Register";
 import Login from "./components/Login";
-import Form from "./components/Form";
-import Results from "./components/Results";
 import Header from "./components/Header";
-import Profile from "./components/Profile";  // <-- импортируем твой профиль
+import Profile from "./components/Profile";
 import "./styles/App.css";
 import MainPage from "./components/MainPage";
 import MyPlants from "./components/MyPlants";
+import SelectionPage from "./components/SelectionPage";
+import FavoritePage from "./components/FavoritePage";
 
 // Заглушки для остальных страниц
 const Room = () => <h2 style={{ padding: "1rem" }}>🛏 Моя комната</h2>;
@@ -21,7 +21,7 @@ function PrivateRoute({ isLoggedIn, children }) {
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
-  const [username, setUsername] = useState("");
+  const [username, setUsername] = useState(localStorage.getItem("username") || "");
   const [results, setResults] = useState([]);
 
   useEffect(() => {
@@ -82,6 +82,7 @@ function App() {
               <Route path="/register" element={<Register onRegister={handleLogin} goToLogin={() => {}} />} />
               <Route path="/login" element={<Login onLogin={handleLogin} goToRegister={() => {}} />} />
               <Route path="*" element={<Navigate to="/login" replace />} />
+
             </>
           ) : (
             <>
@@ -98,6 +99,8 @@ function App() {
               <Route path="/diary" element={<Diary />} />
               <Route path="/myplants" element={<MyPlants />} />
               <Route path="*" element={<Navigate to="/" replace />} />
+              <Route path="/selection" element={<SelectionPage />} />
+              <Route path="/favorites" element={<FavoritePage />} />
             </>
           )}
         </Routes>

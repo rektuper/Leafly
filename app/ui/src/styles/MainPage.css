@@ -36,3 +36,17 @@
 .photos img{
     box-shadow: 5px 5px 10px black;
 }
+
+.to-recomend{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.to-recomend button{
+    background: white;
+    border: 1px solid white;
+    height: 40px;
+    width: 100px;
+    box-shadow: 1px 1px 1px black;
+}

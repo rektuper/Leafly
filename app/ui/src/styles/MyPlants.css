@@ -1,21 +1,36 @@
+h2 {
+    color: black;
+    font-size: 28px;
+}
+
 .my-plants-container {
     padding: 20px;
 }
 
+.my-plants {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
 .plant-cards {
+    margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
     gap: 20px;
 }
 
 .plant-card {
-    width: 200px;
+    width: 300px;
+    height: 300px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 16px;
     text-align: center;
     background-color: #fafafa;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .plant-card img {
@@ -28,14 +43,35 @@
 .card-buttons {
     margin-top: 10px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .add-plant-section {
     margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+
+
 }
 
-select {
-    padding: 5px 10px;
-    margin-right: 10px;
+.add-plant-section input, button{
+    border-radius: 10px;
+    border: 1px solid  black;
 }
+
+.add-plant-button{
+    background-color: #caa6f4;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.action-button{
+    border: 1px solid white;
+    background-color: white;
+}
+
+
+
+
+
+

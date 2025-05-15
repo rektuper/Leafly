@@ -1,11 +1,12 @@
 import {useEffect, useState} from "react";
+import { useNavigate } from "react-router-dom";
 import "../styles/Profile.css";
 
 function Profile() {
     const [profile, setProfile] = useState(null);
     const [editing, setEditing] = useState(false);
     const [formData, setFormData] = useState({});
-
+    const navigate = useNavigate();
     const token = localStorage.getItem("access_token");
 
     useEffect(() => {
@@ -90,6 +91,7 @@ function Profile() {
                     <button onClick={() => setEditing(true)}>✏️ Редактировать</button>
                 )}
             </div>
+            <button onClick={() => navigate("/favorites")}>⭐ Мои избранные растения</button>
         </div>
     );
 }

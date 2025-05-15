@@ -5,6 +5,12 @@
   box-shadow: 0 0 12px rgba(160, 32, 240, 0.15);
   margin: 20px auto;
   max-width: 900px;
+
+}
+
+.coincidence{
+  display: flex;
+  justify-content: space-around;
 }
 
 .results h2, .results h3 {

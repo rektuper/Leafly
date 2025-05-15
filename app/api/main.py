@@ -1,4 +1,4 @@
-from fastapi import FastAPI, APIRouter, HTTPException, Depends, Body
+from fastapi import FastAPI, APIRouter, HTTPException, Depends, Body, Query
 from fastapi.middleware.cors import CORSMiddleware
 from typing import List, Dict, Any
 from pydantic import BaseModel
@@ -172,12 +172,55 @@ def remove_plant_from_profile(plant_name: str = Body(...), current_user: dict = 
 
 
 
-@app.on_event("startup")
-def list_routes():
-    print("\n📋 Зарегистрированные маршруты:")
-    for route in app.routes:
-        if isinstance(route, APIRoute):
-            print(f"{route.path} -> {route.name}")
+# Получить список избранных растений (полные данные) текущего пользователя
+@app.get("/profile/favorites", response_model=List[Plant])
+def get_favorites(current_user: dict = Depends(get_current_user)):
+    if not current_user:
+        raise HTTPException(status_code=401, detail="Неавторизованный доступ")
+
+    user_profile = user_data_collection.find_one({"username": current_user["username"]}, {"favoritescolors": 1, "_id": 0})
+    if not user_profile or "favoritescolors" not in user_profile:
+        return []
+
+    favorite_names = user_profile["favoritescolors"]
+    plants = list(plants_collection.find({"name": {"$in": favorite_names}}, {"_id": 0}))
+    return plants
+
+# Добавить растение в избранное
+@app.post("/profile/favorites/add")
+def add_favorite(plant_name: str = Body(...), current_user: dict = Depends(get_current_user)):
+    if not current_user:
+        raise HTTPException(status_code=401, detail="Неавторизованный доступ")
+
+    plant = plants_collection.find_one({"name": plant_name})
+    if not plant:
+        raise HTTPException(status_code=404, detail="Растение не найдено")
+
+    result = user_data_collection.update_one(
+        {"username": current_user["username"]},
+        {"$addToSet": {"favoritescolors": plant_name}}
+    )
+
+    if result.modified_count == 0:
+        return {"message": "Растение уже в избранном"}
+
+    return {"message": "Растение добавлено в избранное"}
+
+# Удалить растение из избранного
+@app.delete("/profile/favorites/remove")
+def remove_favorite(plant_name: str = Body(...), current_user: dict = Depends(get_current_user)):
+    if not current_user:
+        raise HTTPException(status_code=401, detail="Неавторизованный доступ")
+
+    result = user_data_collection.update_one(
+        {"username": current_user["username"]},
+        {"$pull": {"favoritescolors": plant_name}}
+    )
+
+    if result.modified_count == 0:
+        raise HTTPException(status_code=404, detail="Растение не найдено в избранном")
+
+    return {"message": "Растение удалено из избранного"}
 
 
 
