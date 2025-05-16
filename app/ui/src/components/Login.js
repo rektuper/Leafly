@@ -80,7 +80,7 @@ function Login({ onLogin, goToRegister }) {
               required
           />
         </div>
-        <button className="sumit-btn" type="submit">Войти</button>
+        <button className="sumit-btn" type="submit" onClick={() => navigate("/")}>Войти</button>
         <p className="switch-auth">
           Нет аккаунта?{" "}
           <button type="button" className="switch-to-reg" onClick={() => navigate("/register")}>

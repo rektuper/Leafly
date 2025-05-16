@@ -99,7 +99,6 @@ function App() {
               />
               <Route path="/diary" element={<DiaryPage />} />
               <Route path="/myplants" element={<MyPlants />} />
-
               <Route path="/selection" element={<SelectionPage />} />
               <Route path="/favorites" element={<FavoritePage />} />
             </>

@@ -114,7 +114,7 @@ function Register({onRegister}) {
                 </button>
                 <p className="switch-auth">
                     Уже есть аккаунт?{" "}
-                    <button type="button" onClick={() => navigate("/")} className="switch-to-log">
+                    <button type="button" onClick={() => navigate("/login")} className="switch-to-log">
                         Войти
                     </button>
                 </p>
