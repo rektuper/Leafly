@@ -1,21 +1,20 @@
-import {useState} from "react";
+import { useState } from "react";
 import "../styles/header.css";
-import {useLocation, useNavigate} from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import Burger from "./icons/Burger";
 
-function Header({isLoggedIn, username, onLogout}) {
+function Header({ isLoggedIn, username, onLogout }) {
     const [menuOpen, setMenuOpen] = useState(false);
     const location = useLocation();
     const navigate = useNavigate();
 
     const menuItems = [
-        {label: "На главную", path: "/"},
-        {label: "Личный кабинет", path: "/profile"},
-        {label: "Мои растения", path: "/myplants"},
-        {label: "Избранное", path: "/favorites"},
-        {label: "Дневник по уходу", path: "/diary"},
-        {label: "Подбор растения", path: "/selection"},
-
+        { label: "На главную", path: "/" },
+        { label: "Личный кабинет", path: "/profile" },
+        { label: "Избранное", path: "/favorites" },
+        { label: "Мои растения", path: "/myplants" },
+        { label: "Дневник по уходу", path: "/diary" },
+        { label: "Подбор растения", path: "/selection" },
     ];
 
     const handleNavigate = (path) => {
@@ -31,13 +30,14 @@ function Header({isLoggedIn, username, onLogout}) {
     return (
         <header className="header">
             <button className="logo-btn" onClick={() => navigate("/")}>🌸leafly</button>
-            {isLoggedIn && (
+
+            {isLoggedIn ? (
                 <div className="user-menu-container">
-                    <div className="username-header">
-                        <button className="username-btn" onClick={() => setMenuOpen(!menuOpen)}>
-                            {username}
-                        </button>
-                        <Burger/>
+                    <div className="username-header" onClick={() => setMenuOpen(!menuOpen)}>
+                        <button className="username-btn">{username}</button>
+                        <div className="burger-icon">
+                            <Burger />
+                        </div>
                     </div>
 
                     {menuOpen && (
@@ -56,6 +56,11 @@ function Header({isLoggedIn, username, onLogout}) {
                             </div>
                         </div>
                     )}
+                </div>
+            ) : (
+                <div className="auth-buttons">
+                    <button className="auth-btn" onClick={() => navigate("/login")}>Войти</button>
+                    <button className="auth-btn" onClick={() => navigate("/register")}>Зарегистрироваться</button>
                 </div>
             )}
         </header>

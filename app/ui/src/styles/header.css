@@ -1,69 +1,102 @@
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: black;
-  padding: 1rem 2rem;
-  position: relative;
-  height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    padding: 1rem 2rem;
+    position: relative;
+    height: 60px;
 }
 
-.username-btn {
-  background: transparent;
-  color: black;
-  border: none;
-  font-weight: bold;
-  font-size: 1.5rem;
-  cursor: pointer;
-  position: relative;
-  margin-right: 50зч;
+.logo-btn {
+    border: none;
+    background-color: transparent;
+    font-size: 36px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
 }
 
 .user-menu-container {
-  position: relative;
+    position: relative;
+}
+
+.username-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+
+.username-btn {
+    background: transparent;
+    color: black;
+    border: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 0.3rem 0.5rem;
 }
 
 .dropdown-menu {
-  position: absolute;
-  right: 0;
-  top: 110%;
-  background: white;
-  color: #333;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  overflow: hidden;
-  z-index: 100;
-  min-width: 180px;
+    position: absolute;
+    right: 0;
+    top: 120%;
+    background: white;
+    color: #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    z-index: 100;
+    min-width: 180px;
 }
 
 .menu-item {
-  padding: 0.75rem 1rem;
-  cursor: pointer;
-  transition: background 0.2s;
+    padding: 0.75rem 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
 }
 
 .menu-item:hover {
-  background: #f3e2f5;
+    background: #f3e2f5;
 }
 
 .menu-item.active {
-  background: #f3c4e2;
-  font-weight: bold;
+    background: #f3c4e2;
+    font-weight: bold;
 }
 
 .menu-item.logout {
-  color: red;
+    color: red;
 }
 
-.username-header{
-  display: flex;
-  align-items: center;
+.burger-icon {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.logo-btn{
-  border: none;
-  background-color: rgba(255, 255, 255, 0);
-  font-size: 36px;
-  font-weight: bold;
-  color: black;
+.auth-buttons {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.auth-btn {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: black;
+    border-radius: 999px;
+    padding: 0.4rem 1rem;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.auth-btn:hover {
+    background-color: #c1b69c;
+    color: white;
 }

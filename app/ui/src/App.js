@@ -80,9 +80,10 @@ function App() {
         <Routes>
           {!isLoggedIn ? (
             <>
+              <Route path="/" element={ <MainPage/>}/>
+              <Route path="/selection" element={<SelectionPage />} />
               <Route path="/register" element={<Register onRegister={handleLogin} goToLogin={() => {}} />} />
               <Route path="/login" element={<Login onLogin={handleLogin} goToRegister={() => {}} />} />
-              <Route path="*" element={<Navigate to="/login" replace />} />
 
             </>
           ) : (
@@ -98,7 +99,7 @@ function App() {
               />
               <Route path="/diary" element={<DiaryPage />} />
               <Route path="/myplants" element={<MyPlants />} />
-              <Route path="*" element={<Navigate to="/" replace />} />
+
               <Route path="/selection" element={<SelectionPage />} />
               <Route path="/favorites" element={<FavoritePage />} />
             </>
