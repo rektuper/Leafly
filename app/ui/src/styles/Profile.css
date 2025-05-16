@@ -1,59 +1,87 @@
 .profile-container {
-  max-width: 700px;
-  margin: 2rem auto;
-  padding: 2rem;
-  background-color: #fdf6ff;
-  border-radius: 20px;
-  box-shadow: 0 0 10px #caa6f4;
-  font-family: "Segoe UI", sans-serif;
+  max-width: 600px;
+  margin: 30px auto;
+  background-color: #fafafa;
+  padding: 25px 35px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(100, 100, 150, 0.15);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
 }
 
-h2 {
+.profile-container h2 {
+  margin-bottom: 25px;
+  color: #5a4d9a;
   text-align: center;
-  color: #7d3cb5;
-  margin-bottom: 1.5rem;
+}
+
+.profile-basic-info {
+  background-color: #f3f0ff;
+  border-radius: 10px;
+  padding: 15px 20px;
+  margin-bottom: 25px;
+  font-size: 16px;
+  color: #4a3c8c;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.profile-basic-info div {
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .profile-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1rem;
-}
-
-.profile-field {
-  display: flex;
-  flex-direction: column;
+  grid-template-columns: 1fr 2fr;
+  gap: 15px 20px;
+  align-items: center;
+  margin-bottom: 30px;
 }
 
 .profile-field label {
   font-weight: 600;
-  color: #5c2d91;
+  color: #5a4d9a;
 }
 
-.profile-field p,
+.profile-field p {
+  margin: 0;
+  padding: 8px 10px;
+  background-color: #e6e0ff;
+  border-radius: 6px;
+  color: #3f367d;
+}
+
 .profile-field input {
-  padding: 0.5rem;
-  border: 1px solid #d6b6f2;
-  border-radius: 8px;
-  background-color: #fff;
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #a39edb;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #4a3c8c;
+  font-weight: 500;
+  outline-color: #7b6be4;
 }
 
 .profile-buttons {
   text-align: center;
-  margin-top: 2rem;
 }
 
 .profile-buttons button {
-  padding: 0.7rem 1.5rem;
-  font-size: 1rem;
-  background-color: #c279f8;
-  color: white;
-  border: none;
-  border-radius: 12px;
   cursor: pointer;
-  transition: background-color 0.3s;
+  background-color: #7b6be4;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  transition: background-color 0.25s ease;
 }
 
 .profile-buttons button:hover {
-  background-color: #a958e5;
+  background-color: #5a4d9a;
 }

@@ -4,10 +4,10 @@ import dayjs from "dayjs";
 import styles from "../styles/Calendar.css";
 
 const actionsList = [
-  { icon: "💧", label: "💧Полив" },
-  { icon: "🧴", label: "🧴Подкормка" },
-  { icon: "✂️", label: "✂️Подстриг" },
-  { icon: "💦", label: "💦Опрыскивание листьев" },
+  { icon: "💧Полив", label: "💧" },
+  { icon: "🧴Подкормка", label: "🧴" },
+  { icon: "✂️Подстриг", label: "✂️" },
+  { icon: "💦Опрыскивание листьев", label: "💦" },
 ];
 
 const Calendar = ({ plant }) => {
@@ -72,7 +72,7 @@ const Calendar = ({ plant }) => {
 
   return (
     <div className="calendar-page">
-      <h2>{plant}</h2>
+      <h2 className="calendar-plant-name">{plant}</h2>
       <div className="calendar-Header">
         <button className="calendar-move-btn" onClick={() => setCurrentDate(currentDate.subtract(1, "month"))}>
           ← Предыдущий

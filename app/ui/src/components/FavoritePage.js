@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import "../styles/FavoritePage.css";
 
 function FavoritePage() {
   const [favorites, setFavorites] = useState([]);
@@ -20,13 +21,11 @@ function FavoritePage() {
       if (!res.ok) throw new Error("Ошибка загрузки избранного");
       const data = await res.json();
       setFavorites(data);
-      console.log(data)
     } catch (error) {
       alert(error.message);
     } finally {
       setLoading(false);
     }
-
   };
 
   const removeFavorite = async (plantName) => {
@@ -43,52 +42,32 @@ function FavoritePage() {
       });
       if (!res.ok) throw new Error("Ошибка удаления из избранного");
 
-      // Обновляем список
       setFavorites((prev) => prev.filter((p) => p.name !== plantName));
     } catch (error) {
       alert(error.message);
     }
   };
 
-  if (loading) return <div>Загрузка избранного...</div>;
+  if (loading) return <div className="loading">Загрузка избранного...</div>;
 
-  if (favorites.length === 0) return <div>Избранных растений нет.</div>;
+  if (favorites.length === 0)
+    return <div className="empty">Избранных растений нет.</div>;
 
   return (
-    <div>
-      <h2>🌿 Избранные растения</h2>
-      <div className="favorites-grid">
+    <div className="favoritePageContainer">
+      <h2 className="title">🌿 Избранные растения</h2>
+      <div className="favoritesGrid">
         {favorites.map((plant) => (
-          <div
-            key={plant.name}
-            style={{
-              border: "1px solid #ccc",
-              borderRadius: "8px",
-              padding: "1rem",
-              width: "200px",
-              boxShadow: "0 2px 5px rgba(0,0,0,0.1)",
-              position: "relative",
-            }}
-          >
+          <div key={plant.name} className="plantCard">
             <img
-              src={ `/photos/${plant.name}.jpg`}
+              src={`/photos/${plant.name}.jpg`}
               alt={plant.name}
-              style={{ width: "100%", height: "150px", objectFit: "cover", borderRadius: "4px" }}
+              className="plantImage"
             />
-            <h3 style={{ marginTop: "0.5rem" }}>{plant.name}</h3>
+            <h3 className="plantName">{plant.name}</h3>
             <button
+              className="removeButton"
               onClick={() => removeFavorite(plant.name)}
-              style={{
-                position: "absolute",
-                top: "8px",
-                right: "8px",
-                backgroundColor: "#ff6b6b",
-                border: "none",
-                color: "white",
-                borderRadius: "4px",
-                padding: "0.25rem 0.5rem",
-                cursor: "pointer",
-              }}
               title="Удалить из избранного"
             >
               ×

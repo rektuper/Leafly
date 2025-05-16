@@ -11,3 +11,8 @@
 .results-container {
   flex: 2;
 }
+
+.selection-page-title{
+  text-align: center;
+  color: #3a2f6e;
+}

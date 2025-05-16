@@ -1,0 +1,76 @@
+/* PlantListSidebar.css */
+
+.sidebarContainer {
+  display: flex;
+  flex-direction: column;
+  width: 50vh;
+  height: 80vh;
+  padding: 1rem;
+  background: #faf8ff;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  margin-left: 20px;
+}
+
+.searchInput {
+  width: 80%;
+  padding: 0.6rem 0.8rem;
+  margin-bottom: 1rem;
+  border: 1.5px solid #d0bfff;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+  outline: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.searchInput:focus {
+  border-color: #a679f7;
+  box-shadow: 0 0 5px #a679f7;
+}
+
+.plantList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow-y: auto;
+  flex-grow: 1;
+  scrollbar-width: thin;
+  scrollbar-color: #bba1ff transparent;
+}
+
+.plantList::-webkit-scrollbar {
+  width: 6px;
+}
+
+.plantList::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.plantList::-webkit-scrollbar-thumb {
+  background-color: #bba1ff;
+  border-radius: 3px;
+}
+
+.plantItem {
+  cursor: pointer;
+  padding: 0.7rem 1rem;
+  border-radius: 10px;
+  margin-bottom: 0.3rem;
+  font-size: 1rem;
+  color: #4b3b75;
+  user-select: none;
+  transition: background-color 0.25s ease, color 0.25s ease;
+  box-shadow: inset 0 0 0 transparent;
+}
+
+.plantItem:hover {
+  background-color: #d8ccff; /* нежный лавандовый */
+  color: #3a2670;
+  box-shadow: inset 0 0 8px #c3aaff;
+}
+
+.plantItem:active {
+  background-color: #bba1ff;
+  color: #2d1f55;
+}

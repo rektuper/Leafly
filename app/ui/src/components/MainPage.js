@@ -12,7 +12,6 @@ function MainPage({ username }) {
   return (
       <div className="main-content">
 
-
           <div className="photos">
               <img src="../img/Rectangle3.png" alt=""/>
               <img src="../img/Rectangle4.png" alt=""/>
@@ -29,9 +28,10 @@ function MainPage({ username }) {
                   Откройте для себя радость общения с природой – начните свое путешествие уже сейчас!
               </p>
           </div>
+
           <div className="to-recomend">
-              <h2>Хотите попробовать подобрать себе растение?</h2>
-              <button onClick={handleNavigate}>Подобрать</button>
+              <h2 className="question">Хотите попробовать подобрать себе растение?</h2>
+              <button className="to-expert" onClick={handleNavigate}>Подобрать</button>
           </div>
 
 

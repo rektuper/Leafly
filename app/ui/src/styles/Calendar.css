@@ -17,6 +17,8 @@
 }
 
 .calendar-Day {
+  max-height: 150px;
+  max-width: 150px;
   border: 1px solid #ccc;
   border-radius: 0.375rem;
   padding: 0.5rem;
@@ -34,7 +36,11 @@
 
 .notes-List {
   font-size: 0.875rem;
+  width: 19px;
   padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .calendar-move-btn{
@@ -73,6 +79,12 @@
 
 .actionButton:hover {
   background: #e0e0e0;
+}
+
+.calendar-plant-name{
+  text-align: center;
+  height: 1em;
+
 }
 
 
@@ -123,3 +135,5 @@
   border-radius: 10px;
   cursor: pointer;
 }
+
+

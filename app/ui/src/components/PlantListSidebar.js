@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from "react";
 import axios from "axios";
-import styles from "../styles/PlantListSidebar.module.css";
+import "../styles/PlantListSidebar.css";
 
 const PlantListSidebar = ({onSelectPlant}) => {
     const [plants, setPlants] = useState([]);
@@ -24,22 +24,21 @@ const PlantListSidebar = ({onSelectPlant}) => {
     );
 
     return (
-        <div className={styles.sidebarContainer}>
+        <div className="sidebarContainer">
             <input
                 type="text"
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
                 placeholder="Поиск растения"
-                className={styles.searchInput}
+                className="searchInput"
             />
-            <ul className={styles.plantList}>
+            <ul className="plantList">
                 {filtered.map((name) => (
                     <li
                         key={name}
-                        className={styles.plantItem}
+                        className="plantItem"
 
                         onClick={() => {
-                            console.log("Выбрано растение:", name);
                             onSelectPlant(name);
                         }}
                     >

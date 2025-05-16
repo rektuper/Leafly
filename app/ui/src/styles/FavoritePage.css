@@ -1,0 +1,71 @@
+.favoritePageContainer {
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+  min-height: 80vh;
+}
+
+.title {
+  color: #6b2fa0;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.favoritesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+.plantCard {
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 1rem;
+  box-shadow: 0 6px 12px rgba(159, 111, 219, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.plantCard:hover {
+  transform: translateY(-5px);
+}
+
+.plantImage {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.plantName {
+  margin-top: 0.75rem;
+  text-align: center;
+  color: #4e2a84;
+}
+
+.removeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  line-height: 0.9;
+  transition: background-color 0.2s ease;
+}
+
+.removeButton:hover {
+  background-color: #e04242;
+}
+
+.loading,
+.empty {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #999;
+  margin-top: 2rem;
+}

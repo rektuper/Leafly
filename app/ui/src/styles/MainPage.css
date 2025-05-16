@@ -38,15 +38,29 @@
 }
 
 .to-recomend{
+    margin-top: 30px;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.to-recomend button{
-    background: white;
-    border: 1px solid white;
+.to-expert{
+    background: #c1b69c;
+    border: 2px solid black;
     height: 40px;
-    width: 100px;
+    width: 150px;
     box-shadow: 1px 1px 1px black;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+
+}
+
+.question{
+    height: 1em;
+    margin-bottom: 20px;
+}
+
+{
+
 }

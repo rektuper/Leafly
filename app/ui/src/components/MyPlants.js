@@ -1,12 +1,14 @@
 import {useEffect, useState} from "react";
 import "../styles/MyPlants.css";
-import SearchableDropdown from "./SearchableDropdown"; // путь поправь, если нужно
+import SearchableDropdown from "./SearchableDropdown";
+import {useNavigate} from "react-router-dom"; // путь поправь, если нужно
 
 function MyPlants() {
     const [myPlants, setMyPlants] = useState([]);
     const [allPlants, setAllPlants] = useState([]);
     const [selectedPlant, setSelectedPlant] = useState("");
     const token = localStorage.getItem("access_token");
+    const navigate = useNavigate();
 
     useEffect(() => {
         fetch("http://localhost:8000/auth/profile/me", {
@@ -78,16 +80,16 @@ function MyPlants() {
                             const plant = allPlants.find((p) => p.name === name);
                             if (!plant) return null;
                             return (
-                                <div className="plant-card" key={index}>
+                                <div className="my-plant-card" key={index}>
                                     <img
                                         src={`http://localhost:3000/photos/${plant.path}`}
                                         alt={plant.name}
                                     />
                                     <h3>{plant.name}</h3>
                                     <div className="card-buttons">
-                                        <button className="action-button" title="Информация">Информацияℹ️</button>
-                                        <button className="action-button" title="Дневник">Дневник 📔</button>
-                                        <button className="action-button" title="Удалить"
+                                        <button className="action-plant-button" title="Информация">Информацияℹ️</button>
+                                        <button className="action-plant-button" title="Дневник" onClick={() => navigate("/diary")}>Дневник 📔</button>
+                                        <button className="action-plant-button" title="Удалить"
                                                 onClick={() => handleDeletePlant(plant.name)}>
                                             Удалить🗑️
                                         </button>

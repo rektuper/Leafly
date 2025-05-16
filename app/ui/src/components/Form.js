@@ -9,6 +9,15 @@ const options = {
   space: ["маленькое", "среднее", "большое"]
 };
 
+// Добавим словарь русских названий для полей
+const labels = {
+  light: "Освещение",
+  temperature: "Температура",
+  humidity: "Влажность",
+  experience: "Опыт",
+  space: "Пространство"
+};
+
 function Form({ onSubmit }) {
   const [criteria, setCriteria] = useState({
     light: "",
@@ -31,14 +40,14 @@ function Form({ onSubmit }) {
     <form onSubmit={handleSubmit} className="form">
       {Object.keys(options).map((key) => (
         <label key={key}>
-          {key.charAt(0).toUpperCase() + key.slice(1)}:
+          {labels[key]}:
           <select
             name={key}
             value={criteria[key]}
             onChange={handleChange}
             required
           >
-            <option value="">-- Выберите --</option>
+            <option value="">Выберите</option>
             {options[key].map((val) => (
               <option key={val} value={val}>
                 {val}
