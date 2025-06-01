@@ -1,6 +1,6 @@
-import {useState} from "react";
-import Form from "./Form";
-import Results from "./Results";
+import React, { useState } from "react";
+import Form from "../components/Form";
+import Results from "../components/Results";
 import "../styles/SelectionPage.css";
 
 function SelectionPage() {
@@ -19,11 +19,16 @@ function SelectionPage() {
 
       const data = await response.json();
       setResults(data);
-      setShowForm(false);  // Скрываем форму при получении результата
+      setShowForm(false);
     } catch (err) {
       console.error(err);
       setResults([]);
     }
+  };
+
+  const handleReset = () => {
+    setResults([]);
+    setShowForm(true);
   };
 
   return (
@@ -35,13 +40,14 @@ function SelectionPage() {
             <Form onSubmit={handleSearch} />
           </div>
         )}
-        <div className={`results-container ${!showForm ? "full-width" : ""}`}>
-          <Results results={results} />
-        </div>
+        {!showForm && (
+          <div className="results-container full-width">
+            <Results results={results} onReset={handleReset} />
+          </div>
+        )}
       </div>
     </div>
   );
 }
-
 
 export default SelectionPage;
