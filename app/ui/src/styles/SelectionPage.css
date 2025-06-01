@@ -1,7 +1,7 @@
 .selection-page {
   display: flex;
   gap: 2rem;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .form-container {
@@ -14,5 +14,13 @@
 
 .selection-page-title{
   text-align: center;
+  margin: 10px auto;
   color: #3a2f6e;
+}
+
+
+.results-container.full-width {
+  width: 100%;
+  overflow-x: auto;
+  padding: 10px 0;
 }
