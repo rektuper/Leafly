@@ -308,6 +308,19 @@ def delete_calendar_entry(
     return {"message": "Запись удалена"}
 
 
+@app.get("/care/{plant_name}")
+def get_care_recommendation(plant_name: str):
+    plant = plants_collection.find_one({"name": plant_name})
+    if not plant:
+        raise HTTPException(status_code=404, detail="Растение не найдено")
+
+    care = plant.get("care_recommendation")
+    if not care:
+        raise HTTPException(status_code=404, detail="Совет по уходу отсутствует")
+
+    return {"plant": plant_name, "care_recommendation": care}
+
+
 
 
 

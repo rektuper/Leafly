@@ -1,55 +1,104 @@
-.plant-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.plant-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  margin: 16px;
 }
 
-h2{
-    margin: 0;
-    margin-top: 10px;
-    height: 75px;
+.plant-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
 }
 
-.icons {
-    display: flex;
-    gap: 10px;
+.plant-image img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-bottom: 1px solid #eee;
+}
+
+.plant-content {
+  padding: 16px;
+}
+
+.plant-name {
+  font-size: 20px;
+  color: #2c3e50;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.plant-details {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.plant-details li {
+  margin-bottom: 6px;
+}
+
+.plant-card-buttons {
+  margin-top: 12px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
 }
 
 .icon {
-    cursor: pointer;
-    font-size: 1.2rem;
-    color: #d17dbf;
-    transition: transform 0.2s ease;
+  font-size: 24px;
+  transition: transform 0.2s ease;
 }
 
 .icon:hover {
-    transform: scale(1.2);
+  transform: scale(1.2);
+  color: #2a9d8f;
 }
 
-.plant-card-recomend {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 250px;
-    border: 1px solid black;
-    border-radius: 10px;
-    margin-top: 20px;
-    flex-wrap: wrap;
-    gap: 20px;
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
 }
 
-.plant-card-recomend img{
-    border-radius: 10px;
+.modal-window {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 24px;
+  max-width: 500px;
+  width: 90%;
+  position: relative;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+  max-height: 80vh;
+  overflow-y: auto;
 }
 
-ul {
-    padding: 0;
-    margin-top: 5px;
-    margin-bottom: 0;
-    height: 150px;
+.modal-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #333;
 }
 
-li{
-    list-style-type: none;
-    width: 201px;
+.modal-close:hover {
+  color: #e63946;
 }

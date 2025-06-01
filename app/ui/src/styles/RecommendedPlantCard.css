@@ -1,0 +1,90 @@
+.plant-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2{
+    margin: 0;
+    margin-top: 10px;
+    height: 75px;
+}
+
+.icons {
+    display: flex;
+    gap: 10px;
+}
+
+.icon {
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: #d17dbf;
+    transition: transform 0.2s ease;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+}
+
+.plant-card-recomend {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.plant-card-recomend img{
+    border-radius: 10px;
+}
+
+ul {
+    padding: 0;
+    margin-top: 5px;
+    margin-bottom: 0;
+    height: 150px;
+}
+
+li{
+    list-style-type: none;
+    width: 201px;
+}
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-window {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  width: 80%;
+  max-width: 600px;
+  max-height: 80vh;
+  overflow-y: auto;
+  position: relative;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.modal-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  font-size: 1.4rem;
+  cursor: pointer;
+}

@@ -1,5 +1,12 @@
 import { useState, useEffect } from "react";
-import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+  Outlet,
+} from "react-router-dom";
+
 import Register from "./components/Register";
 import Login from "./components/Login";
 import Header from "./components/Header";
@@ -10,14 +17,11 @@ import MyPlants from "./components/MyPlants";
 import SelectionPage from "./components/SelectionPage";
 import FavoritePage from "./components/FavoritePage";
 import DiaryPage from "./components/DiaryPage";
+import AllPlantsPage from "./components/AllPlantsPage";
 
-// Заглушки для остальных страниц
-const Room = () => <h2 style={{ padding: "1rem" }}>🛏 Моя комната</h2>;
-const Diary = () => <h2 style={{ padding: "1rem" }}>📔 Дневник по уходу</h2>;
-
-// Компонент для защиты приватных роутов
-function PrivateRoute({ isLoggedIn, children }) {
-  return isLoggedIn ? children : <Navigate to="/login" replace />;
+// Приватный маршрут с Outlet
+function PrivateRoute({ isLoggedIn }) {
+  return isLoggedIn ? <Outlet /> : <Navigate to="/login" replace />;
 }
 
 function App() {
@@ -78,31 +82,43 @@ function App() {
       <Header isLoggedIn={isLoggedIn} username={username} onLogout={handleLogout} />
       <div className="content">
         <Routes>
-          {!isLoggedIn ? (
-            <>
-              <Route path="/" element={ <MainPage/>}/>
-              <Route path="/selection" element={<SelectionPage />} />
-              <Route path="/register" element={<Register onRegister={handleLogin} goToLogin={() => {}} />} />
-              <Route path="/login" element={<Login onLogin={handleLogin} goToRegister={() => {}} />} />
+          {/* Публичные маршруты */}
+          <Route path="/" element={<MainPage />} />
+          <Route path="/selection" element={<SelectionPage />} />
+          <Route path="/all-plants" element={<AllPlantsPage />} />
 
-            </>
-          ) : (
-            <>
-              <Route path="/" element={ <MainPage/>}/>
-              <Route
-                path="/profile"
-                element={
-                  <PrivateRoute isLoggedIn={isLoggedIn}>
-                    <Profile />
-                  </PrivateRoute>
-                }
-              />
-              <Route path="/diary" element={<DiaryPage />} />
-              <Route path="/myplants" element={<MyPlants />} />
-              <Route path="/selection" element={<SelectionPage />} />
-              <Route path="/favorites" element={<FavoritePage />} />
-            </>
-          )}
+          {/* Редиректы если уже залогинен */}
+          <Route
+            path="/login"
+            element={
+              isLoggedIn ? (
+                <Navigate to="/" replace />
+              ) : (
+                <Login onLogin={handleLogin} goToRegister={() => {}} />
+              )
+            }
+          />
+          <Route
+            path="/register"
+            element={
+              isLoggedIn ? (
+                <Navigate to="/" replace />
+              ) : (
+                <Register onRegister={handleLogin} goToLogin={() => {}} />
+              )
+            }
+          />
+
+          {/* Приватные маршруты */}
+          <Route element={<PrivateRoute isLoggedIn={isLoggedIn} />}>
+            <Route path="/profile" element={<Profile />} />
+            <Route path="/diary" element={<DiaryPage />} />
+            <Route path="/myplants" element={<MyPlants />} />
+            <Route path="/favorites" element={<FavoritePage />} />
+          </Route>
+
+          {/* На случай несуществующего пути */}
+          <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </div>
     </Router>

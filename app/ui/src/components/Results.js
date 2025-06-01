@@ -1,4 +1,4 @@
-import PlantCard from "./PlantCard";
+import RecommendedPlantCard from "./RecommendedPlantCard";
 import "../styles/Results.css"
 
 function Results({ results }) {
@@ -13,7 +13,7 @@ function Results({ results }) {
 
                   <div className="cards">
                     {results.slice(0, 2).map((item, index) => (
-                        <PlantCard item={item} key={index}/>
+                        <RecommendedPlantCard item={item} key={index}/>
                     ))}
                   </div>
                 </div>
@@ -24,7 +24,7 @@ function Results({ results }) {
 
                   <div className="coincidence">
                     {results.slice(2).map((item, index) => (
-                        <PlantCard item={item} key={index + 100}/>
+                        <RecommendedPlantCard item={item} key={index + 100}/>
                     ))}
                   </div>
                 </div>
