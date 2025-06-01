@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, {useState, useEffect} from "react";
 import PlantCard from "./PlantCard";
 import "../styles/AllPlantsPage.css";
 
@@ -16,6 +16,17 @@ export default function AllPlantsPage() {
     });
 
     const token = localStorage.getItem("access_token");
+
+    const resetFilters = () => {
+        setFilters({
+            light: "",
+            humidity: "",
+            temperature: "",
+            experience: "",
+            space: "",
+        });
+        setSearch("");
+    };
 
     useEffect(() => {
         fetch("http://localhost:8000/all")
@@ -107,7 +118,7 @@ export default function AllPlantsPage() {
         }
 
         fetch("http://localhost:8000/profile/favorites", {
-            headers: { Authorization: `Bearer ${token}` },
+            headers: {Authorization: `Bearer ${token}`},
         })
             .then((res) => {
                 if (!res.ok) throw new Error("Ошибка загрузки избранного");
@@ -121,8 +132,8 @@ export default function AllPlantsPage() {
     }, [token]);
 
     const handleFilterChange = (e) => {
-        const { name, value } = e.target;
-        setFilters((prev) => ({ ...prev, [name]: value }));
+        const {name, value} = e.target;
+        setFilters((prev) => ({...prev, [name]: value}));
     };
 
     const handleFavoriteToggle = async (plantName) => {
@@ -146,7 +157,7 @@ export default function AllPlantsPage() {
                     "Content-Type": "application/json",
                     Authorization: `Bearer ${token}`,
                 },
-                body: JSON.stringify({ plant_name: plantName }),
+                body: JSON.stringify({plant_name: plantName}),
             });
 
             if (!res.ok) throw new Error("Ошибка при обновлении избранного");
@@ -209,6 +220,10 @@ export default function AllPlantsPage() {
                     <option value="Среднее">Среднее</option>
                     <option value="Большое">Большое</option>
                 </select>
+
+                <button className="reset-button" onClick={resetFilters}>
+                    Сбросить фильтры
+                </button>
             </div>
 
             <div className="plant-list">

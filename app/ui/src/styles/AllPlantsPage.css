@@ -44,3 +44,17 @@
   gap: 20px;
   justify-content: flex-start;
 }
+
+.reset-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.reset-button:hover {
+    background-color: #c0392b;
+}
