@@ -25,7 +25,10 @@ class ScoredPlant(BaseModel):
     explanation: List[str]
 
 
-# === КАЛЕНДАРЬ ===
+class PlantNameModel(BaseModel):
+    plant_name: str
+
+
 class CalendarEntry(BaseModel):
     date: date
     actions: List[str]
@@ -206,7 +209,8 @@ def get_favorites(current_user: dict = Depends(get_current_user)):
 
 
 @app.post("/profile/favorites/add")
-def add_favorite(plant_name: str = Body(...), current_user: dict = Depends(get_current_user)):
+def add_favorite(data: PlantNameModel, current_user: dict = Depends(get_current_user)):
+    plant_name = data.plant_name
     if not current_user:
         raise HTTPException(status_code=401, detail="Неавторизованный доступ")
 
@@ -226,7 +230,8 @@ def add_favorite(plant_name: str = Body(...), current_user: dict = Depends(get_c
 
 
 @app.delete("/profile/favorites/remove")
-def remove_favorite(plant_name: str = Body(...), current_user: dict = Depends(get_current_user)):
+def remove_favorite(data: PlantNameModel, current_user: dict = Depends(get_current_user)):
+    plant_name = data.plant_name
     if not current_user:
         raise HTTPException(status_code=401, detail="Неавторизованный доступ")
 

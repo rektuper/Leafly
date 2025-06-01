@@ -13,7 +13,7 @@ function Header({ isLoggedIn, username, onLogout }) {
         { label: "Личный кабинет", path: "/profile" },
         { label: "Избранное", path: "/favorites" },
         { label: "Мои растения", path: "/myplants" },
-        { label: "Дневник по уходу", path: "/diary" },
+        { label: "Дневник ухода", path: "/diary" },
         { label: "Подбор растения", path: "/selection" },
     ];
 

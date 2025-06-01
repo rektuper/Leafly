@@ -2,55 +2,9 @@ import React, { useState, useEffect } from "react";
 import "../styles/PlantCard.css";
 import { FaHeart, FaRegHeart, FaInfoCircle, FaTimes } from "react-icons/fa";
 
-function PlantCard({ item, favoritePlants = [], onFavoriteChange = () => {} }) {
-  const { plant } = item;
-
-  const [isFavorite, setIsFavorite] = useState(false);
+function PlantCard({ plant, isFavorite, onToggleFavorite }) {
   const [showModal, setShowModal] = useState(false);
   const [careText, setCareText] = useState("");
-  const token = localStorage.getItem("access_token");
-
-  useEffect(() => {
-    setIsFavorite(favoritePlants.includes(plant.name));
-  }, [favoritePlants, plant.name]);
-
-  useEffect(() => {
-    const handleKeyDown = (e) => {
-      if (e.key === "Escape") setShowModal(false);
-    };
-    document.addEventListener("keydown", handleKeyDown);
-    return () => document.removeEventListener("keydown", handleKeyDown);
-  }, []);
-
-  const handleFavorite = async () => {
-    if (!token) {
-      alert("Пожалуйста, войдите в систему, чтобы добавлять в избранное");
-      return;
-    }
-
-    try {
-      const url = isFavorite
-        ? "http://localhost:8000/profile/favorites/remove"
-        : "http://localhost:8000/profile/favorites/add";
-      const method = isFavorite ? "DELETE" : "POST";
-
-      const res = await fetch(url, {
-        method,
-        headers: {
-          "Content-Type": "application/json",
-          Authorization: `Bearer ${token}`,
-        },
-        body: JSON.stringify(plant.name),
-      });
-
-      if (!res.ok) throw new Error("Ошибка при обновлении избранного");
-
-      setIsFavorite(!isFavorite);
-      onFavoriteChange(plant.name, !isFavorite);
-    } catch (error) {
-      alert(error.message);
-    }
-  };
 
   const handleInfo = async () => {
     try {
@@ -88,14 +42,14 @@ function PlantCard({ item, favoritePlants = [], onFavoriteChange = () => {} }) {
             {isFavorite ? (
               <FaHeart
                 className="icon favorite"
-                onClick={handleFavorite}
+                onClick={onToggleFavorite}
                 title="Удалить из избранного"
                 style={{ color: "red", cursor: "pointer" }}
               />
             ) : (
               <FaRegHeart
                 className="icon"
-                onClick={handleFavorite}
+                onClick={onToggleFavorite}
                 title="Добавить в избранное"
                 style={{ cursor: "pointer" }}
               />
@@ -112,10 +66,7 @@ function PlantCard({ item, favoritePlants = [], onFavoriteChange = () => {} }) {
 
       {showModal && (
         <div className="modal-backdrop" onClick={() => setShowModal(false)}>
-          <div
-            className="modal-window"
-            onClick={(e) => e.stopPropagation()}
-          >
+          <div className="modal-window" onClick={(e) => e.stopPropagation()}>
             <button className="modal-close" onClick={() => setShowModal(false)}>
               <FaTimes />
             </button>
@@ -127,5 +78,6 @@ function PlantCard({ item, favoritePlants = [], onFavoriteChange = () => {} }) {
     </>
   );
 }
+
 
 export default PlantCard;
