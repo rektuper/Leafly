@@ -30,13 +30,13 @@ function Header({ isLoggedIn, username, onLogout }) {
     return (
         <header className="header">
             <button className="logo-btn" onClick={() => navigate("/")}>🌸leafly</button>
-
+            <button className="auth-btn" onClick={() => navigate("/all-plants")}>Галерея расстений</button>
             {isLoggedIn ? (
                 <div className="user-menu-container">
                     <div className="username-header" onClick={() => setMenuOpen(!menuOpen)}>
                         <button className="username-btn">{username}</button>
                         <div className="burger-icon">
-                            <Burger />
+                            <Burger/>
                         </div>
                     </div>
 

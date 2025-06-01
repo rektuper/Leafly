@@ -1,12 +1,16 @@
 import {useEffect, useState} from "react";
 import "../styles/MyPlants.css";
+import { FaInfoCircle, FaTimes } from "react-icons/fa";
 import SearchableDropdown from "./SearchableDropdown";
-import {useNavigate} from "react-router-dom"; // путь поправь, если нужно
+import {useNavigate} from "react-router-dom";
 
 function MyPlants() {
     const [myPlants, setMyPlants] = useState([]);
     const [allPlants, setAllPlants] = useState([]);
     const [selectedPlant, setSelectedPlant] = useState("");
+    const [showModal, setShowModal] = useState(false);
+    const [careText, setCareText] = useState("");
+    const [activePlantName, setActivePlantName] = useState("");
     const token = localStorage.getItem("access_token");
     const navigate = useNavigate();
 
@@ -59,6 +63,20 @@ function MyPlants() {
         }
     };
 
+    const handleShowInfo = async (plantName) => {
+        try {
+            const res = await fetch(`http://localhost:8000/care/${plantName}`);
+            if (!res.ok) throw new Error("Ошибка при получении информации о растении");
+
+            const data = await res.json();
+            setCareText(data.care_recommendation);
+            setActivePlantName(plantName);
+            setShowModal(true);
+        } catch (error) {
+            alert(error.message);
+        }
+    };
+
     return (
         <div className="my-plants-container">
             <h2>🌿 Мои растения</h2>
@@ -82,19 +100,33 @@ function MyPlants() {
                             return (
                                 <div className="my-plant-card" key={index}>
                                     <img
-                                        src={`http://localhost:3000/photos/${plant.path}`}
+                                        src={`/photos/${plant.name.replace(/\s+/g, "")}.jpg`}
                                         alt={plant.name}
+                                        style={{ width: "100%", height: "200px", objectFit: "contain" }}
                                     />
                                     <h3>{plant.name}</h3>
                                     <div className="card-buttons">
-                                        <button className="action-plant-button" title="Информация">Информацияℹ️</button>
-                                        <button className="action-plant-button" title="Дневник" onClick={() => navigate("/diary")}>Дневник 📔</button>
-                                        <button className="action-plant-button" title="Удалить"
-                                                onClick={() => handleDeletePlant(plant.name)}>
-                                            Удалить🗑️
+                                        <button
+                                            className="action-plant-button"
+                                            title="Информация"
+                                            onClick={() => handleShowInfo(plant.name)}
+                                        >
+                                            Информация ℹ️
                                         </button>
-
-
+                                        <button
+                                            className="action-plant-button"
+                                            title="Дневник"
+                                            onClick={() => navigate("/diary")}
+                                        >
+                                            Дневник 📔
+                                        </button>
+                                        <button
+                                            className="action-plant-button"
+                                            title="Удалить"
+                                            onClick={() => handleDeletePlant(plant.name)}
+                                        >
+                                            Удалить 🗑️
+                                        </button>
                                     </div>
                                 </div>
                             );
@@ -102,6 +134,18 @@ function MyPlants() {
                     </div>
                 )}
             </div>
+
+            {showModal && (
+                <div className="modal-backdrop" onClick={() => setShowModal(false)}>
+                    <div className="modal-window" onClick={(e) => e.stopPropagation()}>
+                        <button className="modal-close" onClick={() => setShowModal(false)}>
+                            <FaTimes />
+                        </button>
+                        <h3>Рекомендации по уходу за: {activePlantName}</h3>
+                        <pre style={{ whiteSpace: "pre-wrap" }}>{careText}</pre>
+                    </div>
+                </div>
+            )}
         </div>
     );
 }

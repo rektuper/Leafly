@@ -1,15 +1,18 @@
 .diaryPage {
   display: flex;
-  height: 100vh;
+  height: 90%;
+  overflow-y: hidden;
 }
 
 .sidebar {
   width: 33%;
   padding: 1rem;
+  height: 50%;
   border-right: 1px solid #ccc;
 }
 
 .calendarContainer {
   width: 67%;
+  height: 50%;
   padding: 1rem;
 }

@@ -24,8 +24,8 @@ function PlantCard({ plant, isFavorite, onToggleFavorite }) {
       <div className="plant-card">
         <div className="plant-image">
           <img
-            src={`/photos/${plant.name.replace(/\s+/g, "")}.jpg`}
-            alt={plant.name}
+              src={`/photos/${plant.name.replace(/\s+/g, "")}.jpg`}
+              alt={plant.name}
           />
         </div>
         <div className="plant-content">

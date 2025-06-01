@@ -1,0 +1,16 @@
+[{
+  "_id": {
+    "$oid": "68252646484330d4a5e0abba"
+  },
+  "username": "rektuper",
+  "email": "rektuper@bk.ru",
+  "hashed_password": "$2b$12$AtHShUS/OSeV58JkIQsFXem5IX0WU2LkmGkHObDvUZNm8fDsd2gpu"
+},
+{
+  "_id": {
+    "$oid": "683cb0bc295abede0942dc9c"
+  },
+  "username": "Ариша",
+  "email": "arrinssa@bk.ru",
+  "hashed_password": "$2b$12$LJN6ERD871n84/i773h5OOflOkiSChXKGZ61Y3NL8PKg3Q9uq8S86"
+}]

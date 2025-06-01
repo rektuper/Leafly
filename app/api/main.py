@@ -313,6 +313,30 @@ def delete_calendar_entry(
     return {"message": "Запись удалена"}
 
 
+@app.delete("/calendar/delete-action")
+def delete_calendar_action(
+    plant_name: str = Body(...),
+    date_str: str = Body(...),
+    action: str = Body(...),
+    current_user: dict = Depends(get_current_user)
+):
+    filter_query = {
+        "user": current_user["username"],
+        "plant_name": plant_name,
+        "entries.date": date_str
+    }
+
+    update_query = {
+        "$pull": {
+            "entries.$.actions": action
+        }
+    }
+
+    care_calendar_collection.update_one(filter_query, update_query)
+
+    return {"message": "Действие удалено"}
+
+
 @app.get("/care/{plant_name}")
 def get_care_recommendation(plant_name: str):
     plant = plants_collection.find_one({"name": plant_name})

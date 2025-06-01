@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import dayjs from "dayjs";
-import "../styles/Calendar.css"; // убедись, что тут правильный путь
+import "../styles/Calendar.css";
 
 const actionsList = [
   { icon: "Полив", label: "💧" },
@@ -14,6 +14,8 @@ const Calendar = ({ plant }) => {
   const [notes, setNotes] = useState({});
   const [currentDate, setCurrentDate] = useState(dayjs());
   const [selectedDay, setSelectedDay] = useState(null);
+  // Новый стейт для выбранных в модалке действий (локально, до сохранения)
+  const [modalSelectedActions, setModalSelectedActions] = useState([]);
 
   const daysInMonth = currentDate.daysInMonth();
   const year = currentDate.year();
@@ -41,16 +43,26 @@ const Calendar = ({ plant }) => {
       .catch((err) => console.error(err));
   }, [plant, year, month]);
 
-  const handleAddAction = (action) => {
-    const day = selectedDay;
-    if (!day) return;
+  // При открытии модалки — копируем действия из notes для выбранного дня в локальный стейт
+  useEffect(() => {
+    if (selectedDay !== null) {
+      setModalSelectedActions(notes[selectedDay] ? [...notes[selectedDay]] : []);
+    }
+  }, [selectedDay, notes]);
 
-    const dateString = dayjs(new Date(year, month, day)).format("YYYY-MM-DD");
+  const toggleActionInModal = (action) => {
+    if (modalSelectedActions.includes(action)) {
+      setModalSelectedActions((prev) => prev.filter((a) => a !== action));
+    } else {
+      setModalSelectedActions((prev) => [...prev, action]);
+    }
+  };
 
-    // Если действие уже добавлено — не добавляем повторно
-    if (notes[day]?.includes(action)) return;
+  // Функция сохранения изменений (вызывается при крестике или Esc)
+  const saveActions = () => {
+    if (selectedDay === null) return;
 
-    const updatedActions = [...(notes[day] || []), action];
+    const dateString = dayjs(new Date(year, month, selectedDay)).format("YYYY-MM-DD");
 
     axios
       .post(
@@ -59,7 +71,7 @@ const Calendar = ({ plant }) => {
           plant_name: plant,
           entry: {
             date: dateString,
-            actions: updatedActions,
+            actions: modalSelectedActions,
           },
         },
         {
@@ -71,12 +83,28 @@ const Calendar = ({ plant }) => {
       .then(() => {
         setNotes((prev) => ({
           ...prev,
-          [day]: updatedActions,
+          [selectedDay]: modalSelectedActions,
         }));
         setSelectedDay(null);
       })
       .catch((err) => console.error(err));
   };
+
+  // Отмена — закрыть модалку без сохранения
+  const cancelModal = () => {
+    setSelectedDay(null);
+  };
+
+  // Обработчик нажатия Esc — закрыть и сохранить
+  useEffect(() => {
+    const handleEsc = (e) => {
+      if (e.key === "Escape" && selectedDay !== null) {
+        saveActions();
+      }
+    };
+    window.addEventListener("keydown", handleEsc);
+    return () => window.removeEventListener("keydown", handleEsc);
+  }, [modalSelectedActions, selectedDay]);
 
   return (
     <div className="calendar-page">
@@ -118,27 +146,40 @@ const Calendar = ({ plant }) => {
       </div>
 
       {selectedDay !== null && (
-        <div className="modal">
-          <div className="modal-content">
-            <h3>
-              Выберите действие для {selectedDay} {currentDate.format("MMMM")}
-            </h3>
-            <div className="actions-grid">
-              {actionsList.map(({ icon, label }) => (
-                <button
-                  key={label}
-                  onClick={() => handleAddAction(label)}
-                  className="action-button"
-                >
-                  <span>{icon}</span> {label}
-                </button>
-              ))}
+          <div className="modal">
+            <div className="modal-content" style={{position: "relative"}}>
+              <button
+                  className="modal-close-button"
+                  aria-label="Закрыть и сохранить"
+                  onClick={saveActions}
+              >
+                &times;
+              </button>
+              <h3>
+                Выберите действие для {selectedDay} {currentDate.format("MMMM")}
+              </h3>
+              <div className="actions-grid">
+                {actionsList.map(({icon, label}) => {
+                  const isSelected = modalSelectedActions.includes(label);
+                  return (
+                      <button
+                          key={label}
+                          onClick={() => toggleActionInModal(label)}
+                          className={`action-button ${isSelected ? "selected" : ""}`}
+                      >
+                    <span role="img" aria-label={icon} style={{fontSize: 18, marginRight: 8}}>
+                      {label}
+                    </span>{" "}
+                        {icon}
+                      </button>
+                  );
+                })}
+              </div>
+              <button onClick={cancelModal} className="cancel-button" style={{marginTop: 20}}>
+                Отмена
+              </button>
             </div>
-            <button onClick={() => setSelectedDay(null)} className="cancel-button">
-              Отмена
-            </button>
           </div>
-        </div>
       )}
     </div>
   );

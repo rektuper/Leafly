@@ -17,8 +17,8 @@
 }
 
 .calendar-Day {
-    max-height: 150px;
-    max-width: 150px;
+    max-height: 100px;
+    max-width: 100px;
     border: 1px solid #ccc;
     border-radius: 0.375rem;
     padding: 0.5rem;
@@ -34,14 +34,7 @@
     font-weight: bold;
 }
 
-.notes-List {
-    font-size: 0.875rem;
-    width: 19px;
-    padding-left: 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
+
 
 .calendar-move-btn {
     height: 50px;
@@ -85,7 +78,7 @@
     text-align: center;
     height: 1em;
     margin-top: -10px;
-    margin-bottom: 30px;
+
 }
 
 
@@ -103,6 +96,7 @@
 }
 
 .modal-content {
+    position: relative;
     background: white;
     padding: 20px;
     border-radius: 16px;
@@ -111,35 +105,64 @@
     width: 90%;
 }
 
+.modal-close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    user-select: none;
+    line-height: 1;
+}
+
 .actions-grid {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
     justify-content: center;
-    margin: 20px 0;
+    margin-top: 15px;
 }
 
 .action-button {
-    font-size: 16px;
-    padding: 8px 12px;
-    border: none;
-    background: #f0f0f0;
-    border-radius: 10px;
+    margin: 5px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background: #fff;
     cursor: pointer;
+    font-weight: normal;
+    user-select: none;
+    display: flex;
+    align-items: center;
+    transition: background 0.2s, border-color 0.2s, font-weight 0.2s;
+}
+
+.action-button span {
+    font-size: 18px;
+    margin-right: 8px;
+}
+
+.action-button.selected {
+    border: 2px solid #9345f1;
+    background: #efe0ff;
+    font-weight: bold;
 }
 
 .cancel-button {
-    background: #e57373;
-    color: white;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #eee;
     border: none;
-    padding: 8px 16px;
-    border-radius: 10px;
+    border-radius: 8px;
     cursor: pointer;
+    transition: background 0.2s;
 }
 
-.calendar-page {
-    padding: 2rem;
+.cancel-button:hover {
+    background: #ddd;
 }
+
 
 .calendar-Header {
     display: flex;
@@ -148,6 +171,7 @@
 }
 
 .calendar-move-btn {
+    height: 30px;
     padding: 0.5rem 1rem;
     background-color: #d19ae0;
     border: none;
@@ -159,6 +183,7 @@
 
 .month-Title {
     font-size: 1.5rem;
+    height: 50px;
     color: #8e44ad;
 }
 
@@ -177,6 +202,7 @@
     border: 1px solid #ccc;
     min-height: 80px;
     transition: all 0.2s;
+
 }
 
 .calendar-Day:hover {
@@ -194,18 +220,25 @@
 }
 
 .notes-List {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    font-size: 0.85rem;
     display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 4px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .notes-List li {
-    max-width: 20px;
-    max-height: 20px;
+    font-size: 18px;
+    line-height: 1;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 0;
 }
 
 
